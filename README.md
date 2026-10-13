@@ -19,6 +19,8 @@ de RPG: niveles, prestigios, movimientos especiales y ultis.
 El objetivo es un juego donde las decisiones en tiempo real pesan tanto
 como la construcción del personaje.
 
+🔗 **Sitio del proyecto:** [cuc-bp-equipo25493-sitio-202-elcm.s3-website-us-east-1.amazonaws.com](http://cuc-bp-equipo25493-sitio-202-elcm.s3-website-us-east-1.amazonaws.com/)
+
 ---
 
 ## ⚔️ Pilares del combate

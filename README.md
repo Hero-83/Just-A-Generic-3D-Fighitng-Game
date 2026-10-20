@@ -174,3 +174,11 @@ Leyenda: ✅ hecho · 🟡 en progreso · ⏳ pendiente
 ---
 
 ## 📁 Estructura del proyecto (planeada)
+
+## Despliegue en AWS
+
+| Integrante | URL del sitio | Bucket publico | Bucket privado |
+|---|---|---|---|
+| Eissan Charris | http://cuc-bp-equipo25493-sitio-202-elcm.s3-website-us-east-1.amazonaws.com/ | cuc-bp-equipo25493-sitio-202-elcm  | cuc-bp-eq25493-charris-priv-2026 |
+
+Lo pasamos a S3 en vez de a netlify por que el profe lo pidio

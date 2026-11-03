@@ -1,26 +1,59 @@
+#!/bin/bash
+dnf install -y nodejs
+mkdir -p /opt/api
+
+cat > /opt/api/server.js <<'FIN'
 const http = require('http');
-const d = [4.5, 3.5, 2.5, 4.0];
-const s = http.createServer((req, res) => {
-if (req.url === '/salud') {
-res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-res.end(JSON.stringify({ estado: 'ok' }));
-return;
+const notas = [4.5, 3.5, 2.5, 4.0];
+
+function calcularPromedio(arrayNotas) {
+    let sumaTotal = 0;
+    for (let i = 0; i < arrayNotas.length; i++) {
+        sumaTotal = sumaTotal + arrayNotas[i];
+    }
+    return sumaTotal / arrayNotas.length;
 }
-if (req.url === '/equipo') {
-res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-res.end(JSON.stringify({ equipo: 'Equipo NN',
-integrantes: ['Nombre Uno', 'Nombre Dos'] }));
-return;
+
+function responder(res, codigo, datos) {
+    res.writeHead(codigo, { 'Content-Type': 'application/json; charset=utf-8' });
+    res.end(JSON.stringify(datos));
 }
-if (req.url === '/notas') {
-let t = 0;
-for (let i = 0; i < d.length; i++) { t = t + d[i]; }
-let p = t / d.length;
-res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-res.end(JSON.stringify({ promedio: p, aprobado: p >= 3.0 }));
-return;
-}
-res.writeHead(404, { 'Content-Type': 'application/json; charset=utf-8' });
-res.end(JSON.stringify({ error: 'Ruta no encontrada' }));
+
+const servidor = http.createServer((req, res) => {
+    if (req.url === '/salud') {
+        responder(res, 200, { estado: 'ok' });
+        return;
+    }
+    if (req.url === '/equipo') {
+        responder(res, 200, { 
+            equipo: 'Equipo 25493',
+            integrantes: ['Eissan Charris'] 
+        });
+        return;
+    }
+    if (req.url === '/notas') {
+        const promedio = calcularPromedio(notas);
+        responder(res, 200, { promedio: promedio, aprobado: promedio >= 3.0 });
+        return;
+    }
+    responder(res, 404, { error: 'Ruta no encontrada' });
 });
-s.listen(80)
+
+servidor.listen(80);
+FIN
+
+cat > /etc/systemd/system/api.service <<'FIN'
+[Unit]
+Description=API del equipo
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /opt/api/server.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+FIN
+
+systemctl daemon-reload
+systemctl enable --now api

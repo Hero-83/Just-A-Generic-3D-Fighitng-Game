@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://wlr18ked0sqk"]
+
+[ext_resource type="Script" uid="uid://iv30i064dw01" path="res://Personaje/CharacterModel.gd" id="1_noarx"]
+[ext_resource type="Script" uid="uid://bpx0jupfx2ofs" path="res://Personaje/Character.gd" id="2_a0tk4"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CharacterModel" type="Node3D" parent="."]
+script = ExtResource("1_noarx")
+
+[node name="Character" type="CharacterBody3D" parent="CharacterModel"]
+script = ExtResource("2_a0tk4")

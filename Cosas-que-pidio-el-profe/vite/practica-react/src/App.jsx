@@ -1,35 +1,6 @@
 import { useState } from 'react';
-
-function Boton({ children, alHacerClic, variante = "primario", cargando = false }) {
-  const estilo = {
-    backgroundColor: variante === "peligro" ? "#d32f2f" : "#1976d2",
-    color: "white",
-    padding: "8px 16px",
-    border: "none",
-    borderRadius: "4px",
-    cursor: cargando ? "not-allowed" : "pointer",
-    opacity: cargando ? 0.6 : 1
-  };
-
-  return (
-    <button style={estilo} onClick={alHacerClic} disabled={cargando}>
-      {children}
-    </button>
-  );
-}
-
-function FilaEstudiante({ estudiante }) {
-  const estado = estudiante.nota >= 3.0 ? 'Aprobado' : 'Reprobado';
-  const color = estudiante.nota >= 3.0 ? 'green' : 'red';
-
-  return (
-    <tr>
-      <td>{estudiante.nombre}</td>
-      <td>{estudiante.nota}</td>
-      <td style={{ color: color, fontWeight: "bold" }}>{estado}</td>
-    </tr>
-  );
-}
+import Boton from './componentes/Boton';
+import FilaEstudiante from './componentes/FilaEstudiante';
 
 export default function App() {
   const [estudiantes, setEstudiantes] = useState([]);

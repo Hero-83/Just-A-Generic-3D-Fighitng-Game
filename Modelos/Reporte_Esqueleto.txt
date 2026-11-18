@@ -1,0 +1,71 @@
+=== REPORTE DEL ESQUELETO ===
+Nombre del Objeto Armature: Esqueleto
+Escala del Objeto: <Vector (1.0000, 1.0000, 1.0000)>
+Rotación del Objeto (Euler): <Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>
+
+=== LISTA DE HUESOS (BONES) ===
+Formato: [Nombre] | [Hueso Padre] | [Dirección Local Y]
+--------------------------------------------------
+Hueso: Centro Arriba
+  -> Padre: Ninguno (Raíz)
+  -> Dirección (Y local): X:0.00, Y:0.00, Z:1.00
+
+Hueso: Cabeza
+  -> Padre: Centro Arriba
+  -> Dirección (Y local): X:-0.01, Y:1.00, Z:0.00
+
+Hueso: Hombro Izquierdo
+  -> Padre: Centro Arriba
+  -> Dirección (Y local): X:-1.00, Y:-0.00, Z:0.00
+
+Hueso: BrazoSupIzq
+  -> Padre: Hombro Izquierdo
+  -> Dirección (Y local): X:0.00, Y:0.39, Z:-0.92
+
+Hueso: BrazoInfIzq
+  -> Padre: BrazoSupIzq
+  -> Dirección (Y local): X:0.36, Y:0.92, Z:-0.15
+
+Hueso: Hombro Derecho
+  -> Padre: Centro Arriba
+  -> Dirección (Y local): X:1.00, Y:0.00, Z:-0.00
+
+Hueso: BrazoSupDer
+  -> Padre: Hombro Derecho
+  -> Dirección (Y local): X:-0.00, Y:0.39, Z:-0.92
+
+Hueso: BrazoInfDer
+  -> Padre: BrazoSupDer
+  -> Dirección (Y local): X:-0.36, Y:0.92, Z:-0.15
+
+Hueso: Arma
+  -> Padre: BrazoInfDer
+  -> Dirección (Y local): X:-0.00, Y:-0.00, Z:-1.00
+
+Hueso: Centro Bajo
+  -> Padre: Ninguno (Raíz)
+  -> Dirección (Y local): X:0.00, Y:0.00, Z:-1.00
+
+Hueso: PelvizDer
+  -> Padre: Centro Bajo
+  -> Dirección (Y local): X:0.89, Y:0.45, Z:0.00
+
+Hueso: PiernaSupDer
+  -> Padre: PelvizDer
+  -> Dirección (Y local): X:-0.40, Y:0.45, Z:-0.80
+
+Hueso: PiernaInfDer
+  -> Padre: PiernaSupDer
+  -> Dirección (Y local): X:0.00, Y:1.00, Z:0.00
+
+Hueso: PelvizIzq
+  -> Padre: Centro Bajo
+  -> Dirección (Y local): X:-0.89, Y:0.45, Z:0.00
+
+Hueso: PiernaSupIzq
+  -> Padre: PelvizIzq
+  -> Dirección (Y local): X:0.40, Y:0.45, Z:-0.80
+
+Hueso: PiernaInfIzq
+  -> Padre: PiernaSupIzq
+  -> Dirección (Y local): X:-0.00, Y:1.00, Z:0.00

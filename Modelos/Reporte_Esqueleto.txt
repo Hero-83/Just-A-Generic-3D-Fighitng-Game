@@ -1,0 +1,2923 @@
+========================================================================================
+REPORTE DE ESQUELETO / ARMATURE — BLENDER
+========================================================================================
+Fecha: 2026-11-24 15:25:48
+Archivo .blend: C:\Proyetadas\Just-A-Generic-3D-Fighitng-Game\Modelos\Base_M110.blend
+Blender: 5.3.0
+
+[1] OBJETO ARMATURE
+Nombre del objeto: Base
+Nombre del datablock: Esqueleto
+Modo actual: POSE
+Cantidad de huesos: 16
+Visibilidad: viewport=False, render=False
+Transformación del objeto (mundo):
+  Posición: (0.000000, 0.000000, 3.000000)
+  Rotación Euler XYZ (grados): (0.000000, -0.000000, 0.000000)
+  Rotación Quaternion (WXYZ): (1.000000, 0.000000, 0.000000, 0.000000)
+  Escala: (1.000000, 1.000000, 1.000000)
+  Matriz 4x4:
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  3.000000
+      0.000000  0.000000  0.000000  1.000000
+
+Matriz del objeto (matrix_world):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  3.000000
+      0.000000  0.000000  0.000000  1.000000
+
+[2] CONFIGURACIÓN DEL ARMATURE
+pose_position: POSE
+display_type: OCTAHEDRAL
+show_names: False
+show_axes: False
+use_mirror_x: False
+Colecciones de huesos:
+  - Huesos | visible=True
+
+[3] HUESOS — JERARQUÍA, REST POSE Y TRANSFORMACIONES
+Las coordenadas 'Armature' están relativas al objeto Armature.
+Las coordenadas 'Mundo' incluyen la transformación global del objeto.
+La matriz de pose puede diferir de la matriz de reposo por animación/constraints.
+
+----------------------------------------------------------------------------------------
+HUESO: Centro Arriba
+  Padre: <raíz>
+  Hijos: Cabeza, Hombro Izquierdo, Hombro Derecho
+  Conectado al padre: False
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.098980, tail=0.030010
+  Longitud: 1.000000
+  Head (Armature/rest): (0.000000, 0.000000, 0.000000)
+  Tail (Armature/rest): (0.000977, 0.000000, 1.000000)
+  Head (Mundo/rest): (0.000000, 0.000000, 3.000000)
+  Tail (Mundo/rest): (0.000977, 0.000000, 4.000000)
+  Eje local X (reposo): (0.000000, -1.000000, 0.000000)
+  Eje local Y (reposo): (0.000977, 0.000000, 1.000000)
+  Eje local Z (reposo): (-1.000000, -0.000000, 0.000977)
+  Matriz local de reposo (matrix_local):
+      0.000000  0.000977  -1.000000  0.000000
+      -1.000000  0.000000  -0.000000  0.000000
+      0.000000  1.000000  0.000977  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      0.000000  0.000977  -1.000000  0.000000
+      -1.000000  0.000000  -0.000000  0.000000
+      0.000000  1.000000  0.000977  3.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (0.000000, 0.000000, 0.000000)
+  Tail (Armature/pose): (0.000977, 0.000000, 1.000000)
+  Head (Mundo/pose): (0.000000, 0.000000, 3.000000)
+  Tail (Mundo/pose): (0.000977, 0.000000, 4.000000)
+  Transformación pose (matrix):
+      0.000000  0.000977  -1.000000  0.000000
+      -1.000000  0.000000  -0.000000  0.000000
+      0.000000  1.000000  0.000977  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      0.000000  0.000977  -1.000000  0.000000
+      -1.000000  0.000000  -0.000000  0.000000
+      0.000000  1.000000  0.000977  3.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.999372, -0.001502, -0.032070, 0.015013)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: Cabeza
+  Padre: Centro Arriba
+  Hijos: <ninguno>
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.030010, tail=0.013678
+  Longitud: 0.144971
+  Head (Armature/rest): (0.000977, 0.000000, 1.000000)
+  Tail (Armature/rest): (0.000000, 0.000000, 1.144967)
+  Head (Mundo/rest): (0.000977, 0.000000, 4.000000)
+  Tail (Mundo/rest): (0.000000, 0.000000, 4.144967)
+  Eje local X (reposo): (-1.000000, 0.000000, -0.000000)
+  Eje local Y (reposo): (-0.000000, 0.999971, 0.007713)
+  Eje local Z (reposo): (0.000000, 0.007713, -0.999970)
+  Matriz local de reposo (matrix_local):
+      0.000000  -0.006737  0.999977  0.000977
+      1.000000  -0.000000  -0.000000  0.000000
+      0.000000  0.999978  0.006737  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      0.000000  -0.006737  0.999977  0.000977
+      1.000000  -0.000000  -0.000000  0.000000
+      0.000000  0.999978  0.006737  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (0.000977, 0.000000, 1.000000)
+  Tail (Armature/pose): (-0.000000, -0.000000, 1.144967)
+  Head (Mundo/pose): (0.000977, 0.000000, 4.000000)
+  Tail (Mundo/pose): (-0.000000, -0.000000, 4.144967)
+  Transformación pose (matrix):
+      0.000000  -0.006737  0.999977  0.000977
+      1.000000  -0.000000  -0.000000  0.000000
+      0.000000  0.999978  0.006737  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      0.000000  -0.006737  0.999977  0.000977
+      1.000000  -0.000000  -0.000000  0.000000
+      0.000000  0.999978  0.006737  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.994043, -0.108865, 0.005077, 0.000556)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: Hombro Izquierdo
+  Padre: Centro Arriba
+  Hijos: BrazoSupIzq
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.030010, tail=0.164327
+  Longitud: 1.079073
+  Head (Armature/rest): (0.000977, 0.000000, 1.000000)
+  Tail (Armature/rest): (-1.078097, 0.000000, 1.000000)
+  Head (Mundo/rest): (0.000977, 0.000000, 4.000000)
+  Tail (Mundo/rest): (-1.078097, 0.000000, 4.000000)
+  Eje local X (reposo): (-0.000000, -1.000000, -0.000977)
+  Eje local Y (reposo): (-0.000000, -0.000977, 1.000000)
+  Eje local Z (reposo): (-1.000000, 0.000000, -0.000000)
+  Matriz local de reposo (matrix_local):
+      -0.000000  -1.000000  0.000000  0.000977
+      0.000000  0.000000  1.000000  0.000000
+      -1.000000  0.000000  0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      -0.000000  -1.000000  0.000000  0.000977
+      0.000000  0.000000  1.000000  0.000000
+      -1.000000  0.000000  0.000000  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (0.000977, 0.000000, 1.000000)
+  Tail (Armature/pose): (-1.078097, 0.000000, 1.000000)
+  Head (Mundo/pose): (0.000977, 0.000000, 4.000000)
+  Tail (Mundo/pose): (-1.078097, 0.000000, 4.000000)
+  Transformación pose (matrix):
+      -0.000000  -1.000000  0.000000  0.000977
+      0.000000  0.000000  1.000000  0.000000
+      -1.000000  0.000000  0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      -0.000000  -1.000000  0.000000  0.000977
+      0.000000  0.000000  1.000000  0.000000
+      -1.000000  0.000000  0.000000  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.946857, -0.321509, 0.000656, -0.009703)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: BrazoSupIzq
+  Padre: Hombro Izquierdo
+  Hijos: BrazoInfIzq
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.164327, tail=0.100829
+  Longitud: 1.085358
+  Head (Armature/rest): (-1.078097, 0.000000, 1.000000)
+  Tail (Armature/rest): (-1.500000, 0.000000, 0.000000)
+  Head (Mundo/rest): (-1.078097, 0.000000, 4.000000)
+  Tail (Mundo/rest): (-1.500000, 0.000000, 3.000000)
+  Eje local X (reposo): (0.388723, -0.921355, 0.000000)
+  Eje local Y (reposo): (0.921355, 0.388723, -0.000000)
+  Eje local Z (reposo): (-0.000000, 0.000000, 1.000000)
+  Matriz local de reposo (matrix_local):
+      0.921355  -0.388723  0.000000  -1.078097
+      0.000000  0.000000  1.000000  0.000000
+      -0.388723  -0.921355  0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      0.921355  -0.388723  0.000000  -1.078097
+      0.000000  0.000000  1.000000  0.000000
+      -0.388723  -0.921355  0.000000  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (-1.078097, 0.000000, 1.000000)
+  Tail (Armature/pose): (-1.542190, 0.000000, -0.100000)
+  Head (Mundo/pose): (-1.078097, 0.000000, 4.000000)
+  Tail (Mundo/pose): (-1.542190, 0.000000, 2.900000)
+  Transformación pose (matrix):
+      0.921355  -0.427595  0.000000  -1.078097
+      0.000000  0.000000  1.000000  0.000000
+      -0.388723  -1.013490  0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      0.921355  -0.427595  0.000000  -1.078097
+      0.000000  0.000000  1.000000  0.000000
+      -0.388723  -1.013490  0.000000  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.100000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (-0.000000, -0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.698251, 0.489769, -0.401217, 0.334061)
+  Scale pose: (1.000000, 1.100000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: BrazoInfIzq
+  Padre: BrazoSupIzq
+  Hijos: <ninguno>
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.100829, tail=0.099518
+  Longitud: 1.000000
+  Head (Armature/rest): (-1.500000, 0.000000, 0.000000)
+  Tail (Armature/rest): (-1.500000, 0.000000, -1.000000)
+  Head (Mundo/rest): (-1.500000, 0.000000, 3.000000)
+  Tail (Mundo/rest): (-1.500000, 0.000000, 2.000000)
+  Eje local X (reposo): (0.921355, -0.388723, 0.000000)
+  Eje local Y (reposo): (0.388723, 0.921355, -0.000000)
+  Eje local Z (reposo): (-0.000000, 0.000000, 1.000000)
+  Matriz local de reposo (matrix_local):
+      1.000000  -0.000000  -0.000000  -1.500000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      1.000000  -0.000000  -0.000000  -1.500000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  3.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (-1.542190, 0.000000, -0.100000)
+  Tail (Armature/pose): (-1.581587, 0.000000, -1.293379)
+  Head (Mundo/pose): (-1.542190, 0.000000, 2.900000)
+  Tail (Mundo/pose): (-1.581587, 0.000000, 1.706621)
+  Transformación pose (matrix):
+      1.015111  -0.039397  -0.000000  -1.542190
+      0.000000  0.000000  1.000000  0.000000
+      0.035815  -1.193379  -0.000000  -0.100000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      1.015111  -0.039397  -0.000000  -1.542190
+      0.000000  0.000000  1.000000  0.000000
+      0.035815  -1.193379  -0.000000  2.900000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.100000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.912300, 0.179816, 0.058461, -0.363258)
+  Scale pose: (1.000000, 1.100000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: Hombro Derecho
+  Padre: Centro Arriba
+  Hijos: BrazoSupDer
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.030010, tail=0.156052
+  Longitud: 1.075167
+  Head (Armature/rest): (0.000977, 0.000000, 1.000000)
+  Tail (Armature/rest): (1.076143, 0.000000, 1.000000)
+  Head (Mundo/rest): (0.000977, 0.000000, 4.000000)
+  Tail (Mundo/rest): (1.076143, 0.000000, 4.000000)
+  Eje local X (reposo): (0.000000, 1.000000, 0.000977)
+  Eje local Y (reposo): (0.000000, 0.000977, -1.000000)
+  Eje local Z (reposo): (-1.000000, 0.000000, -0.000000)
+  Matriz local de reposo (matrix_local):
+      0.000000  1.000000  0.000000  0.000977
+      -0.000000  -0.000000  1.000000  0.000000
+      1.000000  -0.000000  0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      0.000000  1.000000  0.000000  0.000977
+      -0.000000  -0.000000  1.000000  0.000000
+      1.000000  -0.000000  0.000000  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (0.000977, 0.000000, 1.000000)
+  Tail (Armature/pose): (1.076144, -0.000000, 1.000000)
+  Head (Mundo/pose): (0.000977, 0.000000, 4.000000)
+  Tail (Mundo/pose): (1.076144, -0.000000, 4.000000)
+  Transformación pose (matrix):
+      0.000000  1.000000  0.000000  0.000977
+      -0.000000  -0.000000  1.000000  0.000000
+      1.000000  -0.000000  0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      0.000000  1.000000  0.000000  0.000977
+      -0.000000  -0.000000  1.000000  0.000000
+      1.000000  -0.000000  0.000000  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.925936, 0.377508, -0.000770, -0.011393)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: BrazoSupDer
+  Padre: Hombro Derecho
+  Hijos: BrazoInfDer
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.156052, tail=0.057471
+  Longitud: 1.086119
+  Head (Armature/rest): (1.076143, 0.000000, 1.000000)
+  Tail (Armature/rest): (1.500000, 0.000000, 0.000000)
+  Head (Mundo/rest): (1.076143, 0.000000, 4.000000)
+  Tail (Mundo/rest): (1.500000, 0.000000, 3.000000)
+  Eje local X (reposo): (0.390249, 0.920709, 0.000000)
+  Eje local Y (reposo): (-0.920709, 0.390249, -0.000000)
+  Eje local Z (reposo): (-0.000000, -0.000000, 1.000000)
+  Matriz local de reposo (matrix_local):
+      0.920710  0.390249  0.000000  1.076144
+      0.000000  0.000000  1.000000  -0.000000
+      0.390249  -0.920709  -0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      0.920710  0.390249  0.000000  1.076144
+      0.000000  0.000000  1.000000  -0.000000
+      0.390249  -0.920709  -0.000000  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (1.076144, -0.000000, 1.000000)
+  Tail (Armature/pose): (1.542386, -0.000000, -0.100000)
+  Head (Mundo/pose): (1.076144, -0.000000, 4.000000)
+  Tail (Mundo/pose): (1.542386, -0.000000, 2.900000)
+  Transformación pose (matrix):
+      0.920710  0.429274  0.000000  1.076144
+      0.000000  0.000000  1.000000  -0.000000
+      0.390249  -1.012780  -0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      0.920710  0.429274  0.000000  1.076144
+      0.000000  0.000000  1.000000  -0.000000
+      0.390249  -1.012780  -0.000000  4.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.100000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.958415, -0.995854, -0.268177)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (-0.849371, -0.361804, -0.287411, -0.255072)
+  Scale pose: (1.000000, 1.100000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: BrazoInfDer
+  Padre: BrazoSupDer
+  Hijos: Arma
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.057471, tail=0.075313
+  Longitud: 1.000000
+  Head (Armature/rest): (1.500000, 0.000000, 0.000000)
+  Tail (Armature/rest): (1.500000, 0.000000, -1.000000)
+  Head (Mundo/rest): (1.500000, 0.000000, 3.000000)
+  Tail (Mundo/rest): (1.500000, 0.000000, 2.000000)
+  Eje local X (reposo): (0.920709, 0.390249, 0.000000)
+  Eje local Y (reposo): (-0.390249, 0.920709, 0.000000)
+  Eje local Z (reposo): (-0.000000, -0.000000, 1.000000)
+  Matriz local de reposo (matrix_local):
+      1.000000  -0.000000  -0.000000  1.500000
+      0.000000  -0.000000  1.000000  -0.000000
+      0.000000  -1.000000  -0.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      1.000000  -0.000000  -0.000000  1.500000
+      0.000000  -0.000000  1.000000  -0.000000
+      0.000000  -1.000000  -0.000000  3.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (1.542386, -0.000000, -0.100000)
+  Tail (Armature/pose): (1.581910, -0.000000, -1.293248)
+  Head (Mundo/pose): (1.542386, -0.000000, 2.900000)
+  Tail (Mundo/pose): (1.581910, -0.000000, 1.706752)
+  Transformación pose (matrix):
+      1.015230  0.039524  -0.000000  1.542386
+      0.000000  -0.000000  1.000000  -0.000000
+      -0.035931  -1.193248  0.000000  -0.100000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      1.015230  0.039524  -0.000000  1.542386
+      0.000000  -0.000000  1.000000  -0.000000
+      -0.035931  -1.193248  0.000000  2.900000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.100000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, -0.000000, -0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.984225, 0.051039, -0.169396, 0.000672)
+  Scale pose: (1.000000, 1.100000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: Arma
+  Padre: BrazoInfDer
+  Hijos: <ninguno>
+  Conectado al padre: False
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.100000, tail=0.050000
+  Longitud: 0.500000
+  Head (Armature/rest): (1.500000, 0.000000, -0.500000)
+  Tail (Armature/rest): (1.500000, 0.000000, -1.000000)
+  Head (Mundo/rest): (1.500000, 0.000000, 2.500000)
+  Tail (Mundo/rest): (1.500000, 0.000000, 2.000000)
+  Eje local X (reposo): (1.000000, -0.000000, -0.000000)
+  Eje local Y (reposo): (0.000000, 1.000000, 0.000000)
+  Eje local Z (reposo): (0.000000, -0.000000, 1.000000)
+  Matriz local de reposo (matrix_local):
+      1.000000  -0.000000  0.000000  1.500000
+      0.000000  0.000000  1.000000  -0.000000
+      0.000000  -1.000000  -0.000000  -0.500000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      1.000000  -0.000000  0.000000  1.500000
+      0.000000  0.000000  1.000000  -0.000000
+      0.000000  -1.000000  -0.000000  2.500000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (1.562148, -0.000000, -0.696624)
+  Tail (Armature/pose): (1.581910, -0.000000, -1.293248)
+  Head (Mundo/pose): (1.562148, -0.000000, 2.303376)
+  Tail (Mundo/pose): (1.581910, -0.000000, 1.706752)
+  Transformación pose (matrix):
+      1.015230  0.039524  -0.000000  1.562148
+      0.000000  -0.000000  1.000000  -0.000000
+      -0.035930  -1.193248  0.000000  -0.696624
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      1.015230  0.039524  -0.000000  1.562148
+      0.000000  -0.000000  1.000000  -0.000000
+      -0.035930  -1.193248  0.000000  2.303376
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  -0.000000
+      0.000000  0.000000  1.000000  -0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, -0.000000, -0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.773203, 0.131066, -0.141668, 0.604077)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: Centro Bajo
+  Padre: <raíz>
+  Hijos: PelvizDer, PelvizIzq
+  Conectado al padre: False
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.190396, tail=0.076158
+  Longitud: 0.750000
+  Head (Armature/rest): (0.000000, 0.000000, 0.000000)
+  Tail (Armature/rest): (0.000000, 0.000000, -0.750000)
+  Head (Mundo/rest): (0.000000, 0.000000, 3.000000)
+  Tail (Mundo/rest): (0.000000, 0.000000, 2.250000)
+  Eje local X (reposo): (1.000000, 0.000000, 0.000000)
+  Eje local Y (reposo): (0.000000, 0.000000, -1.000000)
+  Eje local Z (reposo): (0.000000, 1.000000, 0.000000)
+  Matriz local de reposo (matrix_local):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  0.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  0.000000  3.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (0.000000, 0.000000, 0.000000)
+  Tail (Armature/pose): (0.000000, 0.000000, -0.750000)
+  Head (Mundo/pose): (0.000000, 0.000000, 3.000000)
+  Tail (Mundo/pose): (0.000000, 0.000000, 2.250000)
+  Transformación pose (matrix):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  0.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  0.000000  3.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (1.000000, 0.000000, 0.000000, 0.000000)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: PelvizDer
+  Padre: Centro Bajo
+  Hijos: PiernaSupDer
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.076158, tail=0.056648
+  Longitud: 0.559017
+  Head (Armature/rest): (0.000000, 0.000000, -0.750000)
+  Tail (Armature/rest): (0.500000, 0.000000, -1.000000)
+  Head (Mundo/rest): (0.000000, 0.000000, 2.250000)
+  Tail (Mundo/rest): (0.500000, 0.000000, 2.000000)
+  Eje local X (reposo): (0.000000, -0.000000, -1.000000)
+  Eje local Y (reposo): (0.894427, 0.447214, 0.000000)
+  Eje local Z (reposo): (0.447214, -0.894427, 0.000000)
+  Matriz local de reposo (matrix_local):
+      0.000000  0.894427  0.447214  0.000000
+      -1.000000  0.000000  0.000000  0.000000
+      0.000000  -0.447214  0.894427  -0.750000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      0.000000  0.894427  0.447214  0.000000
+      -1.000000  0.000000  0.000000  0.000000
+      0.000000  -0.447214  0.894427  2.250000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (0.000000, 0.000000, -0.750000)
+  Tail (Armature/pose): (0.500000, 0.000000, -1.000000)
+  Head (Mundo/pose): (0.000000, 0.000000, 2.250000)
+  Tail (Mundo/pose): (0.500000, 0.000000, 2.000000)
+  Transformación pose (matrix):
+      0.000000  0.894427  0.447214  0.000000
+      -1.000000  0.000000  0.000000  0.000000
+      0.000000  -0.447214  0.894427  -0.750000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      0.000000  0.894427  0.447214  0.000000
+      -1.000000  0.000000  0.000000  0.000000
+      0.000000  -0.447214  0.894427  2.250000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (1.000000, 0.000000, 0.000000, 0.000000)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: PiernaSupDer
+  Padre: PelvizDer
+  Hijos: PiernaInfDer
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.056648, tail=0.103494
+  Longitud: 1.000000
+  Head (Armature/rest): (0.500000, 0.000000, -1.000000)
+  Tail (Armature/rest): (0.500000, 0.000000, -2.000000)
+  Head (Mundo/rest): (0.500000, 0.000000, 2.000000)
+  Tail (Mundo/rest): (0.500000, 0.000000, 1.000000)
+  Eje local X (reposo): (0.000000, 0.894427, 0.447214)
+  Eje local Y (reposo): (-0.000000, 0.447214, -0.894427)
+  Eje local Z (reposo): (-1.000000, 0.000000, 0.000000)
+  Matriz local de reposo (matrix_local):
+      1.000000  0.000000  -0.000000  0.500000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  -1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      1.000000  0.000000  -0.000000  0.500000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  2.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (0.500000, 0.000000, -1.000000)
+  Tail (Armature/pose): (0.500000, 0.000000, -2.000000)
+  Head (Mundo/pose): (0.500000, 0.000000, 2.000000)
+  Tail (Mundo/pose): (0.500000, 0.000000, 1.000000)
+  Transformación pose (matrix):
+      1.000000  0.000000  -0.000000  0.500000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  -1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      1.000000  0.000000  -0.000000  0.500000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  2.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (1.000000, 0.000000, 0.000000, 0.000000)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: PiernaInfDer
+  Padre: PiernaSupDer
+  Hijos: <ninguno>
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.103494, tail=0.085163
+  Longitud: 1.000000
+  Head (Armature/rest): (0.500000, 0.000000, -2.000000)
+  Tail (Armature/rest): (0.500000, 0.000000, -3.000000)
+  Head (Mundo/rest): (0.500000, 0.000000, 1.000000)
+  Tail (Mundo/rest): (0.500000, 0.000000, 0.000000)
+  Eje local X (reposo): (1.000000, 0.000000, -0.000000)
+  Eje local Y (reposo): (-0.000000, 1.000000, -0.000000)
+  Eje local Z (reposo): (0.000000, 0.000000, 1.000000)
+  Matriz local de reposo (matrix_local):
+      1.000000  0.000000  -0.000000  0.500000
+      -0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  -2.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      1.000000  0.000000  -0.000000  0.500000
+      -0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (0.500000, 0.000000, -2.000000)
+  Tail (Armature/pose): (0.500000, 0.000000, -3.000000)
+  Head (Mundo/pose): (0.500000, 0.000000, 1.000000)
+  Tail (Mundo/pose): (0.500000, 0.000000, 0.000000)
+  Transformación pose (matrix):
+      1.000000  0.000000  -0.000000  0.500000
+      -0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  -2.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      1.000000  0.000000  -0.000000  0.500000
+      -0.000000  0.000000  1.000000  0.000000
+      0.000000  -1.000000  -0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.989298, -0.145909, 0.000000, 0.000000)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: PelvizIzq
+  Padre: Centro Bajo
+  Hijos: PiernaSupIzq
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.076158, tail=0.050884
+  Longitud: 0.559017
+  Head (Armature/rest): (0.000000, 0.000000, -0.750000)
+  Tail (Armature/rest): (-0.500000, 0.000000, -1.000000)
+  Head (Mundo/rest): (0.000000, 0.000000, 2.250000)
+  Tail (Mundo/rest): (-0.500000, 0.000000, 2.000000)
+  Eje local X (reposo): (0.000000, 0.000000, 1.000000)
+  Eje local Y (reposo): (-0.894427, 0.447214, 0.000000)
+  Eje local Z (reposo): (-0.447214, -0.894427, 0.000000)
+  Matriz local de reposo (matrix_local):
+      0.000000  -0.894427  -0.447214  0.000000
+      1.000000  0.000000  0.000000  0.000000
+      -0.000000  -0.447214  0.894427  -0.750000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      0.000000  -0.894427  -0.447214  0.000000
+      1.000000  0.000000  0.000000  0.000000
+      -0.000000  -0.447214  0.894427  2.250000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (0.000000, 0.000000, -0.750000)
+  Tail (Armature/pose): (-0.500000, 0.000000, -1.000000)
+  Head (Mundo/pose): (0.000000, 0.000000, 2.250000)
+  Tail (Mundo/pose): (-0.500000, 0.000000, 2.000000)
+  Transformación pose (matrix):
+      0.000000  -0.894427  -0.447214  0.000000
+      1.000000  0.000000  0.000000  0.000000
+      -0.000000  -0.447214  0.894427  -0.750000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      0.000000  -0.894427  -0.447214  0.000000
+      1.000000  0.000000  0.000000  0.000000
+      -0.000000  -0.447214  0.894427  2.250000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (1.000000, 0.000000, 0.000000, 0.000000)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: PiernaSupIzq
+  Padre: PelvizIzq
+  Hijos: PiernaInfIzq
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.050884, tail=0.102092
+  Longitud: 1.000000
+  Head (Armature/rest): (-0.500000, 0.000000, -1.000000)
+  Tail (Armature/rest): (-0.500000, 0.000000, -2.000000)
+  Head (Mundo/rest): (-0.500000, 0.000000, 2.000000)
+  Tail (Mundo/rest): (-0.500000, 0.000000, 1.000000)
+  Eje local X (reposo): (0.000000, -0.894427, -0.447214)
+  Eje local Y (reposo): (0.000000, 0.447214, -0.894427)
+  Eje local Z (reposo): (1.000000, 0.000000, 0.000000)
+  Matriz local de reposo (matrix_local):
+      1.000000  -0.000000  0.000000  -0.500000
+      -0.000000  0.000000  1.000000  0.000000
+      -0.000000  -1.000000  -0.000000  -1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      1.000000  -0.000000  0.000000  -0.500000
+      -0.000000  0.000000  1.000000  0.000000
+      -0.000000  -1.000000  -0.000000  2.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (-0.500000, 0.000000, -1.000000)
+  Tail (Armature/pose): (-0.500000, 0.000000, -2.000000)
+  Head (Mundo/pose): (-0.500000, 0.000000, 2.000000)
+  Tail (Mundo/pose): (-0.500000, 0.000000, 1.000000)
+  Transformación pose (matrix):
+      1.000000  -0.000000  0.000000  -0.500000
+      -0.000000  0.000000  1.000000  0.000000
+      -0.000000  -1.000000  -0.000000  -1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      1.000000  -0.000000  0.000000  -0.500000
+      -0.000000  0.000000  1.000000  0.000000
+      -0.000000  -1.000000  -0.000000  2.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (1.000000, 0.000000, 0.000000, 0.000000)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+----------------------------------------------------------------------------------------
+HUESO: PiernaInfIzq
+  Padre: PiernaSupIzq
+  Hijos: <ninguno>
+  Conectado al padre: True
+  Deform: True
+  Hereda rotación: True
+  Hereda escala: FULL
+  Envelope: <propiedad no disponible en esta versión>
+  Radio envelope: head=0.102092, tail=0.097704
+  Longitud: 1.000000
+  Head (Armature/rest): (-0.500000, 0.000000, -2.000000)
+  Tail (Armature/rest): (-0.500000, 0.000000, -3.000000)
+  Head (Mundo/rest): (-0.500000, 0.000000, 1.000000)
+  Tail (Mundo/rest): (-0.500000, 0.000000, 0.000000)
+  Eje local X (reposo): (1.000000, -0.000000, 0.000000)
+  Eje local Y (reposo): (0.000000, 1.000000, -0.000000)
+  Eje local Z (reposo): (-0.000000, 0.000000, 1.000000)
+  Matriz local de reposo (matrix_local):
+      1.000000  -0.000000  0.000000  -0.500000
+      0.000000  0.000000  1.000000  0.000000
+      -0.000000  -1.000000  -0.000000  -2.000000
+      0.000000  0.000000  0.000000  1.000000
+  Matriz de reposo en mundo:
+      1.000000  -0.000000  0.000000  -0.500000
+      0.000000  0.000000  1.000000  0.000000
+      -0.000000  -1.000000  -0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  --- POSE ACTUAL ---
+  Head (Armature/pose): (-0.500000, 0.000000, -2.000000)
+  Tail (Armature/pose): (-0.500000, 0.000000, -3.000000)
+  Head (Mundo/pose): (-0.500000, 0.000000, 1.000000)
+  Tail (Mundo/pose): (-0.500000, 0.000000, 0.000000)
+  Transformación pose (matrix):
+      1.000000  -0.000000  0.000000  -0.500000
+      0.000000  0.000000  1.000000  0.000000
+      -0.000000  -1.000000  -0.000000  -2.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación pose en mundo:
+      1.000000  -0.000000  0.000000  -0.500000
+      0.000000  0.000000  1.000000  0.000000
+      -0.000000  -1.000000  -0.000000  1.000000
+      0.000000  0.000000  0.000000  1.000000
+  Transformación relativa (matrix_basis):
+      1.000000  0.000000  0.000000  0.000000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  0.000000
+      0.000000  0.000000  0.000000  1.000000
+  Location pose: (0.000000, 0.000000, 0.000000)
+  Rotation Euler pose (grados): (0.000000, 0.000000, 0.000000)
+  Rotation Quaternion pose (WXYZ): (0.989298, -0.145909, 0.000000, 0.000000)
+  Scale pose: (1.000000, 1.000000, 1.000000)
+  Bloqueos: loc=(False, False, False), rot=(False, False, False), scale=(False, False, False)
+  Constraints:
+      <ninguno>
+
+[4] CONSTRAINTS DEL OBJETO ARMATURE
+  <ninguno>
+
+[5] ANIMACIÓN
+Action activa: Ranger2_L
+  Acción: Ranger2_L
+    Rango: (1.0, 24.0)
+    Canales/FCurves encontrados: 48
+      Slot=OBBase, data_path='pose.bones["Centro Arriba"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Centro Arriba"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=-0.070836, interpolación=BEZIER
+        Frame=4.000000, valor=-0.070836, interpolación=BEZIER
+        Frame=8.000000, valor=-0.070836, interpolación=BEZIER
+        Frame=12.000000, valor=-0.070836, interpolación=BEZIER
+        Frame=24.000000, valor=-0.070836, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Centro Arriba"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.012195, interpolación=BEZIER
+        Frame=8.000000, valor=-2.082200, interpolación=BEZIER
+        Frame=12.000000, valor=-2.082200, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Cabeza"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Cabeza"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.010215, interpolación=BEZIER
+        Frame=4.000000, valor=0.010215, interpolación=BEZIER
+        Frame=8.000000, valor=0.010215, interpolación=BEZIER
+        Frame=12.000000, valor=0.010215, interpolación=BEZIER
+        Frame=24.000000, valor=0.010215, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Cabeza"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Hombro Izquierdo"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.644157, interpolación=BEZIER
+        Frame=4.000000, valor=-0.750890, interpolación=BEZIER
+        Frame=8.000000, valor=-0.750890, interpolación=BEZIER
+        Frame=12.000000, valor=-0.750890, interpolación=BEZIER
+        Frame=24.000000, valor=0.644157, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Hombro Izquierdo"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=-0.000013, interpolación=BEZIER
+        Frame=4.000000, valor=-0.010907, interpolación=BEZIER
+        Frame=8.000000, valor=-0.010907, interpolación=BEZIER
+        Frame=12.000000, valor=-0.010907, interpolación=BEZIER
+        Frame=24.000000, valor=-0.000013, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Hombro Izquierdo"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000043, interpolación=BEZIER
+        Frame=4.000000, valor=-0.011311, interpolación=BEZIER
+        Frame=8.000000, valor=-0.011311, interpolación=BEZIER
+        Frame=12.000000, valor=-0.011311, interpolación=BEZIER
+        Frame=24.000000, valor=0.000043, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoSupIzq"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=1.386541, interpolación=BEZIER
+        Frame=4.000000, valor=2.512712, interpolación=BEZIER
+        Frame=8.000000, valor=2.512712, interpolación=BEZIER
+        Frame=12.000000, valor=2.512712, interpolación=BEZIER
+        Frame=24.000000, valor=1.386541, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoSupIzq"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=-0.491233, interpolación=BEZIER
+        Frame=4.000000, valor=0.081450, interpolación=BEZIER
+        Frame=8.000000, valor=0.081450, interpolación=BEZIER
+        Frame=12.000000, valor=0.081450, interpolación=BEZIER
+        Frame=24.000000, valor=-0.491233, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoSupIzq"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=-0.669504, interpolación=BEZIER
+        Frame=4.000000, valor=-1.997476, interpolación=BEZIER
+        Frame=8.000000, valor=-1.997476, interpolación=BEZIER
+        Frame=12.000000, valor=-1.997476, interpolación=BEZIER
+        Frame=24.000000, valor=-0.669504, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoInfIzq"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=-0.859477, interpolación=BEZIER
+        Frame=8.000000, valor=-0.859477, interpolación=BEZIER
+        Frame=12.000000, valor=-0.859477, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoInfIzq"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=-0.318734, interpolación=BEZIER
+        Frame=8.000000, valor=-0.318734, interpolación=BEZIER
+        Frame=12.000000, valor=-0.318734, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoInfIzq"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.206406, interpolación=BEZIER
+        Frame=8.000000, valor=0.206406, interpolación=BEZIER
+        Frame=12.000000, valor=0.206406, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Hombro Derecho"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=-0.936206, interpolación=BEZIER
+        Frame=4.000000, valor=0.523159, interpolación=BEZIER
+        Frame=8.000000, valor=0.523159, interpolación=BEZIER
+        Frame=12.000000, valor=0.523159, interpolación=BEZIER
+        Frame=24.000000, valor=-0.936206, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Hombro Derecho"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.049125, interpolación=BEZIER
+        Frame=4.000000, valor=-0.059374, interpolación=BEZIER
+        Frame=8.000000, valor=-0.059374, interpolación=BEZIER
+        Frame=12.000000, valor=-0.059374, interpolación=BEZIER
+        Frame=24.000000, valor=0.049125, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Hombro Derecho"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.076988, interpolación=BEZIER
+        Frame=4.000000, valor=0.045853, interpolación=BEZIER
+        Frame=8.000000, valor=0.045853, interpolación=BEZIER
+        Frame=12.000000, valor=0.045853, interpolación=BEZIER
+        Frame=24.000000, valor=0.076988, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoSupDer"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=1.317590, interpolación=BEZIER
+        Frame=4.000000, valor=1.329785, interpolación=BEZIER
+        Frame=8.000000, valor=3.249647, interpolación=BEZIER
+        Frame=12.000000, valor=3.249647, interpolación=BEZIER
+        Frame=24.000000, valor=1.317590, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoSupDer"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=-0.948472, interpolación=BEZIER
+        Frame=4.000000, valor=-0.948472, interpolación=BEZIER
+        Frame=8.000000, valor=-0.948472, interpolación=BEZIER
+        Frame=12.000000, valor=-0.948472, interpolación=BEZIER
+        Frame=24.000000, valor=-0.948472, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoSupDer"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.390303, interpolación=BEZIER
+        Frame=4.000000, valor=0.390303, interpolación=BEZIER
+        Frame=8.000000, valor=0.390303, interpolación=BEZIER
+        Frame=12.000000, valor=0.390303, interpolación=BEZIER
+        Frame=24.000000, valor=0.390303, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoInfDer"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.056287, interpolación=BEZIER
+        Frame=4.000000, valor=0.405697, interpolación=BEZIER
+        Frame=8.000000, valor=0.405697, interpolación=BEZIER
+        Frame=12.000000, valor=0.405697, interpolación=BEZIER
+        Frame=24.000000, valor=0.056287, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoInfDer"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=-0.021453, interpolación=BEZIER
+        Frame=4.000000, valor=0.242343, interpolación=BEZIER
+        Frame=8.000000, valor=0.242343, interpolación=BEZIER
+        Frame=12.000000, valor=0.242343, interpolación=BEZIER
+        Frame=24.000000, valor=-0.021453, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["BrazoInfDer"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.003671, interpolación=BEZIER
+        Frame=4.000000, valor=0.421317, interpolación=BEZIER
+        Frame=8.000000, valor=0.421317, interpolación=BEZIER
+        Frame=12.000000, valor=0.421317, interpolación=BEZIER
+        Frame=24.000000, valor=0.003671, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Arma"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=-0.044303, interpolación=BEZIER
+        Frame=8.000000, valor=-0.044303, interpolación=BEZIER
+        Frame=12.000000, valor=-0.044303, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Arma"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.023794, interpolación=BEZIER
+        Frame=8.000000, valor=1.070991, interpolación=BEZIER
+        Frame=12.000000, valor=1.070991, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Arma"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.069785, interpolación=BEZIER
+        Frame=8.000000, valor=0.069785, interpolación=BEZIER
+        Frame=12.000000, valor=0.069785, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Centro Bajo"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Centro Bajo"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["Centro Bajo"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PelvizDer"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PelvizDer"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PelvizDer"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaSupDer"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaSupDer"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaSupDer"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaInfDer"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=-0.167351, interpolación=BEZIER
+        Frame=4.000000, valor=-0.167351, interpolación=BEZIER
+        Frame=8.000000, valor=-0.167351, interpolación=BEZIER
+        Frame=12.000000, valor=-0.167351, interpolación=BEZIER
+        Frame=24.000000, valor=-0.167351, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaInfDer"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaInfDer"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PelvizIzq"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PelvizIzq"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PelvizIzq"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaSupIzq"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaSupIzq"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaSupIzq"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaInfIzq"].rotation_euler', array_index=0, keyframes=5
+        Frame=1.000000, valor=-0.167351, interpolación=BEZIER
+        Frame=4.000000, valor=-0.167351, interpolación=BEZIER
+        Frame=8.000000, valor=-0.167351, interpolación=BEZIER
+        Frame=12.000000, valor=-0.167351, interpolación=BEZIER
+        Frame=24.000000, valor=-0.167351, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaInfIzq"].rotation_euler', array_index=1, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+      Slot=OBBase, data_path='pose.bones["PiernaInfIzq"].rotation_euler', array_index=2, keyframes=5
+        Frame=1.000000, valor=0.000000, interpolación=BEZIER
+        Frame=4.000000, valor=0.000000, interpolación=BEZIER
+        Frame=8.000000, valor=0.000000, interpolación=BEZIER
+        Frame=12.000000, valor=0.000000, interpolación=BEZIER
+        Frame=24.000000, valor=0.000000, interpolación=BEZIER
+NLA tracks: 1
+  Track: [Action Stash] | mute=True | solo=False
+    Strip: Caminar | Action=Caminar | frames=1.00-33.00 | action_frames=1.00-33.00
+      Acción: Caminar
+        Rango: (1.0, 33.0)
+        Canales/FCurves encontrados: 48
+          Slot=OBEsqueleto, data_path='pose.bones["Centro Arriba"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Centro Arriba"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=-0.070836, interpolación=BEZIER
+            Frame=2.000000, valor=-0.060621, interpolación=BEZIER
+            Frame=3.000000, valor=-0.050798, interpolación=BEZIER
+            Frame=4.000000, valor=-0.041746, interpolación=BEZIER
+            Frame=5.000000, valor=-0.033811, interpolación=BEZIER
+            Frame=6.000000, valor=-0.027300, interpolación=BEZIER
+            Frame=7.000000, valor=-0.022461, interpolación=BEZIER
+            Frame=8.000000, valor=-0.019482, interpolación=BEZIER
+            Frame=9.000000, valor=-0.018476, interpolación=BEZIER
+            Frame=10.000000, valor=-0.019482, interpolación=BEZIER
+            Frame=11.000000, valor=-0.022461, interpolación=BEZIER
+            Frame=12.000000, valor=-0.027300, interpolación=BEZIER
+            Frame=13.000000, valor=-0.033811, interpolación=BEZIER
+            Frame=14.000000, valor=-0.041746, interpolación=BEZIER
+            Frame=15.000000, valor=-0.050798, interpolación=BEZIER
+            Frame=16.000000, valor=-0.060621, interpolación=BEZIER
+            Frame=17.000000, valor=-0.070836, interpolación=BEZIER
+            Frame=18.000000, valor=-0.081050, interpolación=BEZIER
+            Frame=19.000000, valor=-0.090873, interpolación=BEZIER
+            Frame=20.000000, valor=-0.099925, interpolación=BEZIER
+            Frame=21.000000, valor=-0.107860, interpolación=BEZIER
+            Frame=22.000000, valor=-0.114371, interpolación=BEZIER
+            Frame=23.000000, valor=-0.119210, interpolación=BEZIER
+            Frame=24.000000, valor=-0.122189, interpolación=BEZIER
+            Frame=25.000000, valor=-0.123195, interpolación=BEZIER
+            Frame=26.000000, valor=-0.122189, interpolación=BEZIER
+            Frame=27.000000, valor=-0.119210, interpolación=BEZIER
+            Frame=28.000000, valor=-0.114371, interpolación=BEZIER
+            Frame=29.000000, valor=-0.107860, interpolación=BEZIER
+            Frame=30.000000, valor=-0.099925, interpolación=BEZIER
+            Frame=31.000000, valor=-0.090873, interpolación=BEZIER
+            Frame=32.000000, valor=-0.081050, interpolación=BEZIER
+            Frame=33.000000, valor=-0.070836, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Centro Arriba"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Cabeza"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Cabeza"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.010215, interpolación=BEZIER
+            Frame=2.000000, valor=0.010215, interpolación=BEZIER
+            Frame=3.000000, valor=0.010215, interpolación=BEZIER
+            Frame=4.000000, valor=0.010215, interpolación=BEZIER
+            Frame=5.000000, valor=0.010215, interpolación=BEZIER
+            Frame=6.000000, valor=0.010215, interpolación=BEZIER
+            Frame=7.000000, valor=0.010215, interpolación=BEZIER
+            Frame=8.000000, valor=0.010215, interpolación=BEZIER
+            Frame=9.000000, valor=0.010215, interpolación=BEZIER
+            Frame=10.000000, valor=0.010215, interpolación=BEZIER
+            Frame=11.000000, valor=0.010215, interpolación=BEZIER
+            Frame=12.000000, valor=0.010215, interpolación=BEZIER
+            Frame=13.000000, valor=0.010215, interpolación=BEZIER
+            Frame=14.000000, valor=0.010215, interpolación=BEZIER
+            Frame=15.000000, valor=0.010215, interpolación=BEZIER
+            Frame=16.000000, valor=0.010215, interpolación=BEZIER
+            Frame=17.000000, valor=0.010215, interpolación=BEZIER
+            Frame=18.000000, valor=0.010215, interpolación=BEZIER
+            Frame=19.000000, valor=0.010215, interpolación=BEZIER
+            Frame=20.000000, valor=0.010215, interpolación=BEZIER
+            Frame=21.000000, valor=0.010215, interpolación=BEZIER
+            Frame=22.000000, valor=0.010215, interpolación=BEZIER
+            Frame=23.000000, valor=0.010215, interpolación=BEZIER
+            Frame=24.000000, valor=0.010215, interpolación=BEZIER
+            Frame=25.000000, valor=0.010215, interpolación=BEZIER
+            Frame=26.000000, valor=0.010215, interpolación=BEZIER
+            Frame=27.000000, valor=0.010215, interpolación=BEZIER
+            Frame=28.000000, valor=0.010215, interpolación=BEZIER
+            Frame=29.000000, valor=0.010215, interpolación=BEZIER
+            Frame=30.000000, valor=0.010215, interpolación=BEZIER
+            Frame=31.000000, valor=0.010215, interpolación=BEZIER
+            Frame=32.000000, valor=0.010215, interpolación=BEZIER
+            Frame=33.000000, valor=0.010215, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Cabeza"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Hombro Izquierdo"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Hombro Izquierdo"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Hombro Izquierdo"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoSupIzq"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=-0.146321, interpolación=BEZIER
+            Frame=2.000000, valor=-0.139511, interpolación=BEZIER
+            Frame=3.000000, valor=-0.132963, interpolación=BEZIER
+            Frame=4.000000, valor=-0.126928, interpolación=BEZIER
+            Frame=5.000000, valor=-0.121638, interpolación=BEZIER
+            Frame=6.000000, valor=-0.117297, interpolación=BEZIER
+            Frame=7.000000, valor=-0.114072, interpolación=BEZIER
+            Frame=8.000000, valor=-0.112085, interpolación=BEZIER
+            Frame=9.000000, valor=-0.111414, interpolación=BEZIER
+            Frame=10.000000, valor=-0.112085, interpolación=BEZIER
+            Frame=11.000000, valor=-0.114072, interpolación=BEZIER
+            Frame=12.000000, valor=-0.117297, interpolación=BEZIER
+            Frame=13.000000, valor=-0.121638, interpolación=BEZIER
+            Frame=14.000000, valor=-0.126928, interpolación=BEZIER
+            Frame=15.000000, valor=-0.132963, interpolación=BEZIER
+            Frame=16.000000, valor=-0.139511, interpolación=BEZIER
+            Frame=17.000000, valor=-0.146321, interpolación=BEZIER
+            Frame=18.000000, valor=-0.153131, interpolación=BEZIER
+            Frame=19.000000, valor=-0.159679, interpolación=BEZIER
+            Frame=20.000000, valor=-0.165714, interpolación=BEZIER
+            Frame=21.000000, valor=-0.171004, interpolación=BEZIER
+            Frame=22.000000, valor=-0.175345, interpolación=BEZIER
+            Frame=23.000000, valor=-0.178570, interpolación=BEZIER
+            Frame=24.000000, valor=-0.180557, interpolación=BEZIER
+            Frame=25.000000, valor=-0.181228, interpolación=BEZIER
+            Frame=26.000000, valor=-0.180557, interpolación=BEZIER
+            Frame=27.000000, valor=-0.178570, interpolación=BEZIER
+            Frame=28.000000, valor=-0.175345, interpolación=BEZIER
+            Frame=29.000000, valor=-0.171004, interpolación=BEZIER
+            Frame=30.000000, valor=-0.165714, interpolación=BEZIER
+            Frame=31.000000, valor=-0.159679, interpolación=BEZIER
+            Frame=32.000000, valor=-0.153131, interpolación=BEZIER
+            Frame=33.000000, valor=-0.146321, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoSupIzq"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.423353, interpolación=BEZIER
+            Frame=2.000000, valor=0.423353, interpolación=BEZIER
+            Frame=3.000000, valor=0.423353, interpolación=BEZIER
+            Frame=4.000000, valor=0.423353, interpolación=BEZIER
+            Frame=5.000000, valor=0.423353, interpolación=BEZIER
+            Frame=6.000000, valor=0.423353, interpolación=BEZIER
+            Frame=7.000000, valor=0.423353, interpolación=BEZIER
+            Frame=8.000000, valor=0.423353, interpolación=BEZIER
+            Frame=9.000000, valor=0.423353, interpolación=BEZIER
+            Frame=10.000000, valor=0.423353, interpolación=BEZIER
+            Frame=11.000000, valor=0.423353, interpolación=BEZIER
+            Frame=12.000000, valor=0.423353, interpolación=BEZIER
+            Frame=13.000000, valor=0.423353, interpolación=BEZIER
+            Frame=14.000000, valor=0.423353, interpolación=BEZIER
+            Frame=15.000000, valor=0.423353, interpolación=BEZIER
+            Frame=16.000000, valor=0.423353, interpolación=BEZIER
+            Frame=17.000000, valor=0.423353, interpolación=BEZIER
+            Frame=18.000000, valor=0.423353, interpolación=BEZIER
+            Frame=19.000000, valor=0.423353, interpolación=BEZIER
+            Frame=20.000000, valor=0.423353, interpolación=BEZIER
+            Frame=21.000000, valor=0.423353, interpolación=BEZIER
+            Frame=22.000000, valor=0.423353, interpolación=BEZIER
+            Frame=23.000000, valor=0.423353, interpolación=BEZIER
+            Frame=24.000000, valor=0.423353, interpolación=BEZIER
+            Frame=25.000000, valor=0.423353, interpolación=BEZIER
+            Frame=26.000000, valor=0.423353, interpolación=BEZIER
+            Frame=27.000000, valor=0.423353, interpolación=BEZIER
+            Frame=28.000000, valor=0.423353, interpolación=BEZIER
+            Frame=29.000000, valor=0.423353, interpolación=BEZIER
+            Frame=30.000000, valor=0.423353, interpolación=BEZIER
+            Frame=31.000000, valor=0.423353, interpolación=BEZIER
+            Frame=32.000000, valor=0.423353, interpolación=BEZIER
+            Frame=33.000000, valor=0.423353, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoSupIzq"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000341, interpolación=BEZIER
+            Frame=2.000000, valor=0.000341, interpolación=BEZIER
+            Frame=3.000000, valor=0.000341, interpolación=BEZIER
+            Frame=4.000000, valor=0.000341, interpolación=BEZIER
+            Frame=5.000000, valor=0.000341, interpolación=BEZIER
+            Frame=6.000000, valor=0.000341, interpolación=BEZIER
+            Frame=7.000000, valor=0.000341, interpolación=BEZIER
+            Frame=8.000000, valor=0.000341, interpolación=BEZIER
+            Frame=9.000000, valor=0.000341, interpolación=BEZIER
+            Frame=10.000000, valor=0.000341, interpolación=BEZIER
+            Frame=11.000000, valor=0.000341, interpolación=BEZIER
+            Frame=12.000000, valor=0.000341, interpolación=BEZIER
+            Frame=13.000000, valor=0.000341, interpolación=BEZIER
+            Frame=14.000000, valor=0.000341, interpolación=BEZIER
+            Frame=15.000000, valor=0.000341, interpolación=BEZIER
+            Frame=16.000000, valor=0.000341, interpolación=BEZIER
+            Frame=17.000000, valor=0.000341, interpolación=BEZIER
+            Frame=18.000000, valor=0.000341, interpolación=BEZIER
+            Frame=19.000000, valor=0.000341, interpolación=BEZIER
+            Frame=20.000000, valor=0.000341, interpolación=BEZIER
+            Frame=21.000000, valor=0.000341, interpolación=BEZIER
+            Frame=22.000000, valor=0.000341, interpolación=BEZIER
+            Frame=23.000000, valor=0.000341, interpolación=BEZIER
+            Frame=24.000000, valor=0.000341, interpolación=BEZIER
+            Frame=25.000000, valor=0.000341, interpolación=BEZIER
+            Frame=26.000000, valor=0.000341, interpolación=BEZIER
+            Frame=27.000000, valor=0.000341, interpolación=BEZIER
+            Frame=28.000000, valor=0.000341, interpolación=BEZIER
+            Frame=29.000000, valor=0.000341, interpolación=BEZIER
+            Frame=30.000000, valor=0.000341, interpolación=BEZIER
+            Frame=31.000000, valor=0.000341, interpolación=BEZIER
+            Frame=32.000000, valor=0.000341, interpolación=BEZIER
+            Frame=33.000000, valor=0.000341, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoInfIzq"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.886366, interpolación=BEZIER
+            Frame=2.000000, valor=0.886366, interpolación=BEZIER
+            Frame=3.000000, valor=0.886366, interpolación=BEZIER
+            Frame=4.000000, valor=0.886366, interpolación=BEZIER
+            Frame=5.000000, valor=0.886366, interpolación=BEZIER
+            Frame=6.000000, valor=0.886366, interpolación=BEZIER
+            Frame=7.000000, valor=0.886366, interpolación=BEZIER
+            Frame=8.000000, valor=0.886366, interpolación=BEZIER
+            Frame=9.000000, valor=0.886366, interpolación=BEZIER
+            Frame=10.000000, valor=0.886366, interpolación=BEZIER
+            Frame=11.000000, valor=0.886366, interpolación=BEZIER
+            Frame=12.000000, valor=0.886366, interpolación=BEZIER
+            Frame=13.000000, valor=0.886366, interpolación=BEZIER
+            Frame=14.000000, valor=0.886366, interpolación=BEZIER
+            Frame=15.000000, valor=0.886366, interpolación=BEZIER
+            Frame=16.000000, valor=0.886366, interpolación=BEZIER
+            Frame=17.000000, valor=0.886366, interpolación=BEZIER
+            Frame=18.000000, valor=0.886366, interpolación=BEZIER
+            Frame=19.000000, valor=0.886366, interpolación=BEZIER
+            Frame=20.000000, valor=0.886366, interpolación=BEZIER
+            Frame=21.000000, valor=0.886366, interpolación=BEZIER
+            Frame=22.000000, valor=0.886366, interpolación=BEZIER
+            Frame=23.000000, valor=0.886366, interpolación=BEZIER
+            Frame=24.000000, valor=0.886366, interpolación=BEZIER
+            Frame=25.000000, valor=0.886366, interpolación=BEZIER
+            Frame=26.000000, valor=0.886366, interpolación=BEZIER
+            Frame=27.000000, valor=0.886366, interpolación=BEZIER
+            Frame=28.000000, valor=0.886366, interpolación=BEZIER
+            Frame=29.000000, valor=0.886366, interpolación=BEZIER
+            Frame=30.000000, valor=0.886366, interpolación=BEZIER
+            Frame=31.000000, valor=0.886366, interpolación=BEZIER
+            Frame=32.000000, valor=0.886366, interpolación=BEZIER
+            Frame=33.000000, valor=0.886366, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoInfIzq"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=2.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=3.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=4.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=5.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=6.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=7.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=8.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=9.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=10.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=11.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=12.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=13.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=14.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=15.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=16.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=17.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=18.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=19.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=20.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=21.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=22.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=23.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=24.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=25.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=26.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=27.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=28.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=29.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=30.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=31.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=32.000000, valor=-0.018676, interpolación=BEZIER
+            Frame=33.000000, valor=-0.018676, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoInfIzq"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=2.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=3.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=4.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=5.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=6.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=7.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=8.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=9.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=10.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=11.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=12.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=13.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=14.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=15.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=16.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=17.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=18.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=19.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=20.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=21.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=22.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=23.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=24.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=25.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=26.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=27.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=28.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=29.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=30.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=31.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=32.000000, valor=-0.146532, interpolación=BEZIER
+            Frame=33.000000, valor=-0.146532, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Hombro Derecho"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Hombro Derecho"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Hombro Derecho"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoSupDer"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.870180, interpolación=BEZIER
+            Frame=2.000000, valor=0.863370, interpolación=BEZIER
+            Frame=3.000000, valor=0.856822, interpolación=BEZIER
+            Frame=4.000000, valor=0.850787, interpolación=BEZIER
+            Frame=5.000000, valor=0.845497, interpolación=BEZIER
+            Frame=6.000000, valor=0.841156, interpolación=BEZIER
+            Frame=7.000000, valor=0.837930, interpolación=BEZIER
+            Frame=8.000000, valor=0.835944, interpolación=BEZIER
+            Frame=9.000000, valor=0.835273, interpolación=BEZIER
+            Frame=10.000000, valor=0.835944, interpolación=BEZIER
+            Frame=11.000000, valor=0.837930, interpolación=BEZIER
+            Frame=12.000000, valor=0.841156, interpolación=BEZIER
+            Frame=13.000000, valor=0.845497, interpolación=BEZIER
+            Frame=14.000000, valor=0.850787, interpolación=BEZIER
+            Frame=15.000000, valor=0.856822, interpolación=BEZIER
+            Frame=16.000000, valor=0.863370, interpolación=BEZIER
+            Frame=17.000000, valor=0.870180, interpolación=BEZIER
+            Frame=18.000000, valor=0.876990, interpolación=BEZIER
+            Frame=19.000000, valor=0.883538, interpolación=BEZIER
+            Frame=20.000000, valor=0.889573, interpolación=BEZIER
+            Frame=21.000000, valor=0.894863, interpolación=BEZIER
+            Frame=22.000000, valor=0.899204, interpolación=BEZIER
+            Frame=23.000000, valor=0.902429, interpolación=BEZIER
+            Frame=24.000000, valor=0.904416, interpolación=BEZIER
+            Frame=25.000000, valor=0.905086, interpolación=BEZIER
+            Frame=26.000000, valor=0.904416, interpolación=BEZIER
+            Frame=27.000000, valor=0.902429, interpolación=BEZIER
+            Frame=28.000000, valor=0.899204, interpolación=BEZIER
+            Frame=29.000000, valor=0.894863, interpolación=BEZIER
+            Frame=30.000000, valor=0.889573, interpolación=BEZIER
+            Frame=31.000000, valor=0.883538, interpolación=BEZIER
+            Frame=32.000000, valor=0.876990, interpolación=BEZIER
+            Frame=33.000000, valor=0.870180, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoSupDer"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=2.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=3.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=4.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=5.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=6.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=7.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=8.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=9.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=10.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=11.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=12.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=13.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=14.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=15.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=16.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=17.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=18.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=19.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=20.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=21.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=22.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=23.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=24.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=25.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=26.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=27.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=28.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=29.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=30.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=31.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=32.000000, valor=-1.119071, interpolación=BEZIER
+            Frame=33.000000, valor=-1.119071, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoSupDer"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=2.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=3.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=4.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=5.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=6.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=7.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=8.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=9.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=10.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=11.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=12.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=13.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=14.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=15.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=16.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=17.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=18.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=19.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=20.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=21.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=22.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=23.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=24.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=25.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=26.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=27.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=28.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=29.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=30.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=31.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=32.000000, valor=-0.793284, interpolación=BEZIER
+            Frame=33.000000, valor=-0.793284, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoInfDer"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=1.153178, interpolación=BEZIER
+            Frame=2.000000, valor=1.153178, interpolación=BEZIER
+            Frame=3.000000, valor=1.153178, interpolación=BEZIER
+            Frame=4.000000, valor=1.153178, interpolación=BEZIER
+            Frame=5.000000, valor=1.153178, interpolación=BEZIER
+            Frame=6.000000, valor=1.153178, interpolación=BEZIER
+            Frame=7.000000, valor=1.153178, interpolación=BEZIER
+            Frame=8.000000, valor=1.153178, interpolación=BEZIER
+            Frame=9.000000, valor=1.153178, interpolación=BEZIER
+            Frame=10.000000, valor=1.153178, interpolación=BEZIER
+            Frame=11.000000, valor=1.153178, interpolación=BEZIER
+            Frame=12.000000, valor=1.153178, interpolación=BEZIER
+            Frame=13.000000, valor=1.153178, interpolación=BEZIER
+            Frame=14.000000, valor=1.153178, interpolación=BEZIER
+            Frame=15.000000, valor=1.153178, interpolación=BEZIER
+            Frame=16.000000, valor=1.153178, interpolación=BEZIER
+            Frame=17.000000, valor=1.153178, interpolación=BEZIER
+            Frame=18.000000, valor=1.153178, interpolación=BEZIER
+            Frame=19.000000, valor=1.153178, interpolación=BEZIER
+            Frame=20.000000, valor=1.153178, interpolación=BEZIER
+            Frame=21.000000, valor=1.153178, interpolación=BEZIER
+            Frame=22.000000, valor=1.153178, interpolación=BEZIER
+            Frame=23.000000, valor=1.153178, interpolación=BEZIER
+            Frame=24.000000, valor=1.153178, interpolación=BEZIER
+            Frame=25.000000, valor=1.153178, interpolación=BEZIER
+            Frame=26.000000, valor=1.153178, interpolación=BEZIER
+            Frame=27.000000, valor=1.153178, interpolación=BEZIER
+            Frame=28.000000, valor=1.153178, interpolación=BEZIER
+            Frame=29.000000, valor=1.153178, interpolación=BEZIER
+            Frame=30.000000, valor=1.153178, interpolación=BEZIER
+            Frame=31.000000, valor=1.153178, interpolación=BEZIER
+            Frame=32.000000, valor=1.153178, interpolación=BEZIER
+            Frame=33.000000, valor=1.153178, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoInfDer"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.304231, interpolación=BEZIER
+            Frame=2.000000, valor=0.304231, interpolación=BEZIER
+            Frame=3.000000, valor=0.304231, interpolación=BEZIER
+            Frame=4.000000, valor=0.304231, interpolación=BEZIER
+            Frame=5.000000, valor=0.304231, interpolación=BEZIER
+            Frame=6.000000, valor=0.304231, interpolación=BEZIER
+            Frame=7.000000, valor=0.304231, interpolación=BEZIER
+            Frame=8.000000, valor=0.304231, interpolación=BEZIER
+            Frame=9.000000, valor=0.304231, interpolación=BEZIER
+            Frame=10.000000, valor=0.304231, interpolación=BEZIER
+            Frame=11.000000, valor=0.304231, interpolación=BEZIER
+            Frame=12.000000, valor=0.304231, interpolación=BEZIER
+            Frame=13.000000, valor=0.304231, interpolación=BEZIER
+            Frame=14.000000, valor=0.304231, interpolación=BEZIER
+            Frame=15.000000, valor=0.304231, interpolación=BEZIER
+            Frame=16.000000, valor=0.304231, interpolación=BEZIER
+            Frame=17.000000, valor=0.304231, interpolación=BEZIER
+            Frame=18.000000, valor=0.304231, interpolación=BEZIER
+            Frame=19.000000, valor=0.304231, interpolación=BEZIER
+            Frame=20.000000, valor=0.304231, interpolación=BEZIER
+            Frame=21.000000, valor=0.304231, interpolación=BEZIER
+            Frame=22.000000, valor=0.304231, interpolación=BEZIER
+            Frame=23.000000, valor=0.304231, interpolación=BEZIER
+            Frame=24.000000, valor=0.304231, interpolación=BEZIER
+            Frame=25.000000, valor=0.304231, interpolación=BEZIER
+            Frame=26.000000, valor=0.304231, interpolación=BEZIER
+            Frame=27.000000, valor=0.304231, interpolación=BEZIER
+            Frame=28.000000, valor=0.304231, interpolación=BEZIER
+            Frame=29.000000, valor=0.304231, interpolación=BEZIER
+            Frame=30.000000, valor=0.304231, interpolación=BEZIER
+            Frame=31.000000, valor=0.304231, interpolación=BEZIER
+            Frame=32.000000, valor=0.304231, interpolación=BEZIER
+            Frame=33.000000, valor=0.304231, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["BrazoInfDer"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.326208, interpolación=BEZIER
+            Frame=2.000000, valor=0.326208, interpolación=BEZIER
+            Frame=3.000000, valor=0.326208, interpolación=BEZIER
+            Frame=4.000000, valor=0.326208, interpolación=BEZIER
+            Frame=5.000000, valor=0.326208, interpolación=BEZIER
+            Frame=6.000000, valor=0.326208, interpolación=BEZIER
+            Frame=7.000000, valor=0.326208, interpolación=BEZIER
+            Frame=8.000000, valor=0.326208, interpolación=BEZIER
+            Frame=9.000000, valor=0.326208, interpolación=BEZIER
+            Frame=10.000000, valor=0.326208, interpolación=BEZIER
+            Frame=11.000000, valor=0.326208, interpolación=BEZIER
+            Frame=12.000000, valor=0.326208, interpolación=BEZIER
+            Frame=13.000000, valor=0.326208, interpolación=BEZIER
+            Frame=14.000000, valor=0.326208, interpolación=BEZIER
+            Frame=15.000000, valor=0.326208, interpolación=BEZIER
+            Frame=16.000000, valor=0.326208, interpolación=BEZIER
+            Frame=17.000000, valor=0.326208, interpolación=BEZIER
+            Frame=18.000000, valor=0.326208, interpolación=BEZIER
+            Frame=19.000000, valor=0.326208, interpolación=BEZIER
+            Frame=20.000000, valor=0.326208, interpolación=BEZIER
+            Frame=21.000000, valor=0.326208, interpolación=BEZIER
+            Frame=22.000000, valor=0.326208, interpolación=BEZIER
+            Frame=23.000000, valor=0.326208, interpolación=BEZIER
+            Frame=24.000000, valor=0.326208, interpolación=BEZIER
+            Frame=25.000000, valor=0.326208, interpolación=BEZIER
+            Frame=26.000000, valor=0.326208, interpolación=BEZIER
+            Frame=27.000000, valor=0.326208, interpolación=BEZIER
+            Frame=28.000000, valor=0.326208, interpolación=BEZIER
+            Frame=29.000000, valor=0.326208, interpolación=BEZIER
+            Frame=30.000000, valor=0.326208, interpolación=BEZIER
+            Frame=31.000000, valor=0.326208, interpolación=BEZIER
+            Frame=32.000000, valor=0.326208, interpolación=BEZIER
+            Frame=33.000000, valor=0.326208, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Arma"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.004489, interpolación=BEZIER
+            Frame=2.000000, valor=0.004489, interpolación=BEZIER
+            Frame=3.000000, valor=0.004489, interpolación=BEZIER
+            Frame=4.000000, valor=0.004489, interpolación=BEZIER
+            Frame=5.000000, valor=0.004489, interpolación=BEZIER
+            Frame=6.000000, valor=0.004489, interpolación=BEZIER
+            Frame=7.000000, valor=0.004489, interpolación=BEZIER
+            Frame=8.000000, valor=0.004489, interpolación=BEZIER
+            Frame=9.000000, valor=0.004489, interpolación=BEZIER
+            Frame=10.000000, valor=0.004489, interpolación=BEZIER
+            Frame=11.000000, valor=0.004489, interpolación=BEZIER
+            Frame=12.000000, valor=0.004489, interpolación=BEZIER
+            Frame=13.000000, valor=0.004489, interpolación=BEZIER
+            Frame=14.000000, valor=0.004489, interpolación=BEZIER
+            Frame=15.000000, valor=0.004489, interpolación=BEZIER
+            Frame=16.000000, valor=0.004489, interpolación=BEZIER
+            Frame=17.000000, valor=0.004489, interpolación=BEZIER
+            Frame=18.000000, valor=0.004489, interpolación=BEZIER
+            Frame=19.000000, valor=0.004489, interpolación=BEZIER
+            Frame=20.000000, valor=0.004489, interpolación=BEZIER
+            Frame=21.000000, valor=0.004489, interpolación=BEZIER
+            Frame=22.000000, valor=0.004489, interpolación=BEZIER
+            Frame=23.000000, valor=0.004489, interpolación=BEZIER
+            Frame=24.000000, valor=0.004489, interpolación=BEZIER
+            Frame=25.000000, valor=0.004489, interpolación=BEZIER
+            Frame=26.000000, valor=0.004489, interpolación=BEZIER
+            Frame=27.000000, valor=0.004489, interpolación=BEZIER
+            Frame=28.000000, valor=0.004489, interpolación=BEZIER
+            Frame=29.000000, valor=0.004489, interpolación=BEZIER
+            Frame=30.000000, valor=0.004489, interpolación=BEZIER
+            Frame=31.000000, valor=0.004489, interpolación=BEZIER
+            Frame=32.000000, valor=0.004489, interpolación=BEZIER
+            Frame=33.000000, valor=0.004489, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Arma"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=2.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=3.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=4.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=5.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=6.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=7.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=8.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=9.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=10.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=11.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=12.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=13.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=14.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=15.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=16.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=17.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=18.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=19.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=20.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=21.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=22.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=23.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=24.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=25.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=26.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=27.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=28.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=29.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=30.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=31.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=32.000000, valor=-0.048180, interpolación=BEZIER
+            Frame=33.000000, valor=-0.048180, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Arma"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.725957, interpolación=BEZIER
+            Frame=2.000000, valor=0.725957, interpolación=BEZIER
+            Frame=3.000000, valor=0.725957, interpolación=BEZIER
+            Frame=4.000000, valor=0.725957, interpolación=BEZIER
+            Frame=5.000000, valor=0.725957, interpolación=BEZIER
+            Frame=6.000000, valor=0.725957, interpolación=BEZIER
+            Frame=7.000000, valor=0.725957, interpolación=BEZIER
+            Frame=8.000000, valor=0.725957, interpolación=BEZIER
+            Frame=9.000000, valor=0.725957, interpolación=BEZIER
+            Frame=10.000000, valor=0.725957, interpolación=BEZIER
+            Frame=11.000000, valor=0.725957, interpolación=BEZIER
+            Frame=12.000000, valor=0.725957, interpolación=BEZIER
+            Frame=13.000000, valor=0.725957, interpolación=BEZIER
+            Frame=14.000000, valor=0.725957, interpolación=BEZIER
+            Frame=15.000000, valor=0.725957, interpolación=BEZIER
+            Frame=16.000000, valor=0.725957, interpolación=BEZIER
+            Frame=17.000000, valor=0.725957, interpolación=BEZIER
+            Frame=18.000000, valor=0.725957, interpolación=BEZIER
+            Frame=19.000000, valor=0.725957, interpolación=BEZIER
+            Frame=20.000000, valor=0.725957, interpolación=BEZIER
+            Frame=21.000000, valor=0.725957, interpolación=BEZIER
+            Frame=22.000000, valor=0.725957, interpolación=BEZIER
+            Frame=23.000000, valor=0.725957, interpolación=BEZIER
+            Frame=24.000000, valor=0.725957, interpolación=BEZIER
+            Frame=25.000000, valor=0.725957, interpolación=BEZIER
+            Frame=26.000000, valor=0.725957, interpolación=BEZIER
+            Frame=27.000000, valor=0.725957, interpolación=BEZIER
+            Frame=28.000000, valor=0.725957, interpolación=BEZIER
+            Frame=29.000000, valor=0.725957, interpolación=BEZIER
+            Frame=30.000000, valor=0.725957, interpolación=BEZIER
+            Frame=31.000000, valor=0.725957, interpolación=BEZIER
+            Frame=32.000000, valor=0.725957, interpolación=BEZIER
+            Frame=33.000000, valor=0.725957, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Centro Bajo"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Centro Bajo"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["Centro Bajo"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PelvizDer"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PelvizDer"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PelvizDer"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaSupDer"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=-0.102149, interpolación=BEZIER
+            Frame=3.000000, valor=-0.200373, interpolación=BEZIER
+            Frame=4.000000, valor=-0.290896, interpolación=BEZIER
+            Frame=5.000000, valor=-0.370240, interpolación=BEZIER
+            Frame=6.000000, valor=-0.435356, interpolación=BEZIER
+            Frame=7.000000, valor=-0.483742, interpolación=BEZIER
+            Frame=8.000000, valor=-0.513538, interpolación=BEZIER
+            Frame=9.000000, valor=-0.523599, interpolación=BEZIER
+            Frame=10.000000, valor=-0.513538, interpolación=BEZIER
+            Frame=11.000000, valor=-0.483742, interpolación=BEZIER
+            Frame=12.000000, valor=-0.435356, interpolación=BEZIER
+            Frame=13.000000, valor=-0.370240, interpolación=BEZIER
+            Frame=14.000000, valor=-0.290896, interpolación=BEZIER
+            Frame=15.000000, valor=-0.200373, interpolación=BEZIER
+            Frame=16.000000, valor=-0.102149, interpolación=BEZIER
+            Frame=17.000000, valor=-0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.102149, interpolación=BEZIER
+            Frame=19.000000, valor=0.200373, interpolación=BEZIER
+            Frame=20.000000, valor=0.290896, interpolación=BEZIER
+            Frame=21.000000, valor=0.370240, interpolación=BEZIER
+            Frame=22.000000, valor=0.435356, interpolación=BEZIER
+            Frame=23.000000, valor=0.483742, interpolación=BEZIER
+            Frame=24.000000, valor=0.513538, interpolación=BEZIER
+            Frame=25.000000, valor=0.523599, interpolación=BEZIER
+            Frame=26.000000, valor=0.513538, interpolación=BEZIER
+            Frame=27.000000, valor=0.483742, interpolación=BEZIER
+            Frame=28.000000, valor=0.435356, interpolación=BEZIER
+            Frame=29.000000, valor=0.370240, interpolación=BEZIER
+            Frame=30.000000, valor=0.290896, interpolación=BEZIER
+            Frame=31.000000, valor=0.200373, interpolación=BEZIER
+            Frame=32.000000, valor=0.102149, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaSupDer"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaSupDer"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaInfDer"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=-0.292864, interpolación=BEZIER
+            Frame=2.000000, valor=-0.182652, interpolación=BEZIER
+            Frame=3.000000, valor=-0.065421, interpolación=BEZIER
+            Frame=4.000000, valor=-0.054325, interpolación=BEZIER
+            Frame=5.000000, valor=-0.171983, interpolación=BEZIER
+            Frame=6.000000, valor=-0.283031, interpolación=BEZIER
+            Frame=7.000000, valor=-0.383203, interpolación=BEZIER
+            Frame=8.000000, valor=-0.468649, interpolación=BEZIER
+            Frame=9.000000, valor=-0.536085, interpolación=BEZIER
+            Frame=10.000000, valor=-0.582919, interpolación=BEZIER
+            Frame=11.000000, valor=-0.607352, interpolación=BEZIER
+            Frame=12.000000, valor=-0.608445, interpolación=BEZIER
+            Frame=13.000000, valor=-0.586156, interpolación=BEZIER
+            Frame=14.000000, valor=-0.541341, interpolación=BEZIER
+            Frame=15.000000, valor=-0.475722, interpolación=BEZIER
+            Frame=16.000000, valor=-0.391822, interpolación=BEZIER
+            Frame=17.000000, valor=-0.292864, interpolación=BEZIER
+            Frame=18.000000, valor=-0.182652, interpolación=BEZIER
+            Frame=19.000000, valor=-0.065421, interpolación=BEZIER
+            Frame=20.000000, valor=-0.054325, interpolación=BEZIER
+            Frame=21.000000, valor=-0.171983, interpolación=BEZIER
+            Frame=22.000000, valor=-0.283031, interpolación=BEZIER
+            Frame=23.000000, valor=-0.383203, interpolación=BEZIER
+            Frame=24.000000, valor=-0.468649, interpolación=BEZIER
+            Frame=25.000000, valor=-0.536085, interpolación=BEZIER
+            Frame=26.000000, valor=-0.582919, interpolación=BEZIER
+            Frame=27.000000, valor=-0.607352, interpolación=BEZIER
+            Frame=28.000000, valor=-0.608445, interpolación=BEZIER
+            Frame=29.000000, valor=-0.586156, interpolación=BEZIER
+            Frame=30.000000, valor=-0.541341, interpolación=BEZIER
+            Frame=31.000000, valor=-0.475722, interpolación=BEZIER
+            Frame=32.000000, valor=-0.391822, interpolación=BEZIER
+            Frame=33.000000, valor=-0.292864, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaInfDer"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaInfDer"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PelvizIzq"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PelvizIzq"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PelvizIzq"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaSupIzq"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.102149, interpolación=BEZIER
+            Frame=3.000000, valor=0.200373, interpolación=BEZIER
+            Frame=4.000000, valor=0.290896, interpolación=BEZIER
+            Frame=5.000000, valor=0.370240, interpolación=BEZIER
+            Frame=6.000000, valor=0.435356, interpolación=BEZIER
+            Frame=7.000000, valor=0.483742, interpolación=BEZIER
+            Frame=8.000000, valor=0.513538, interpolación=BEZIER
+            Frame=9.000000, valor=0.523599, interpolación=BEZIER
+            Frame=10.000000, valor=0.513538, interpolación=BEZIER
+            Frame=11.000000, valor=0.483742, interpolación=BEZIER
+            Frame=12.000000, valor=0.435356, interpolación=BEZIER
+            Frame=13.000000, valor=0.370240, interpolación=BEZIER
+            Frame=14.000000, valor=0.290896, interpolación=BEZIER
+            Frame=15.000000, valor=0.200373, interpolación=BEZIER
+            Frame=16.000000, valor=0.102149, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=-0.102149, interpolación=BEZIER
+            Frame=19.000000, valor=-0.200373, interpolación=BEZIER
+            Frame=20.000000, valor=-0.290896, interpolación=BEZIER
+            Frame=21.000000, valor=-0.370240, interpolación=BEZIER
+            Frame=22.000000, valor=-0.435356, interpolación=BEZIER
+            Frame=23.000000, valor=-0.483742, interpolación=BEZIER
+            Frame=24.000000, valor=-0.513538, interpolación=BEZIER
+            Frame=25.000000, valor=-0.523599, interpolación=BEZIER
+            Frame=26.000000, valor=-0.513538, interpolación=BEZIER
+            Frame=27.000000, valor=-0.483742, interpolación=BEZIER
+            Frame=28.000000, valor=-0.435356, interpolación=BEZIER
+            Frame=29.000000, valor=-0.370240, interpolación=BEZIER
+            Frame=30.000000, valor=-0.290896, interpolación=BEZIER
+            Frame=31.000000, valor=-0.200373, interpolación=BEZIER
+            Frame=32.000000, valor=-0.102149, interpolación=BEZIER
+            Frame=33.000000, valor=-0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaSupIzq"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaSupIzq"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaInfIzq"].rotation_euler', array_index=0, keyframes=33
+            Frame=1.000000, valor=-0.292864, interpolación=BEZIER
+            Frame=2.000000, valor=-0.182652, interpolación=BEZIER
+            Frame=3.000000, valor=-0.065421, interpolación=BEZIER
+            Frame=4.000000, valor=-0.054325, interpolación=BEZIER
+            Frame=5.000000, valor=-0.171983, interpolación=BEZIER
+            Frame=6.000000, valor=-0.283031, interpolación=BEZIER
+            Frame=7.000000, valor=-0.383203, interpolación=BEZIER
+            Frame=8.000000, valor=-0.468649, interpolación=BEZIER
+            Frame=9.000000, valor=-0.536085, interpolación=BEZIER
+            Frame=10.000000, valor=-0.582919, interpolación=BEZIER
+            Frame=11.000000, valor=-0.607352, interpolación=BEZIER
+            Frame=12.000000, valor=-0.608445, interpolación=BEZIER
+            Frame=13.000000, valor=-0.586156, interpolación=BEZIER
+            Frame=14.000000, valor=-0.541341, interpolación=BEZIER
+            Frame=15.000000, valor=-0.475722, interpolación=BEZIER
+            Frame=16.000000, valor=-0.391822, interpolación=BEZIER
+            Frame=17.000000, valor=-0.292864, interpolación=BEZIER
+            Frame=18.000000, valor=-0.182652, interpolación=BEZIER
+            Frame=19.000000, valor=-0.065421, interpolación=BEZIER
+            Frame=20.000000, valor=-0.054325, interpolación=BEZIER
+            Frame=21.000000, valor=-0.171983, interpolación=BEZIER
+            Frame=22.000000, valor=-0.283031, interpolación=BEZIER
+            Frame=23.000000, valor=-0.383203, interpolación=BEZIER
+            Frame=24.000000, valor=-0.468649, interpolación=BEZIER
+            Frame=25.000000, valor=-0.536085, interpolación=BEZIER
+            Frame=26.000000, valor=-0.582919, interpolación=BEZIER
+            Frame=27.000000, valor=-0.607352, interpolación=BEZIER
+            Frame=28.000000, valor=-0.608445, interpolación=BEZIER
+            Frame=29.000000, valor=-0.586156, interpolación=BEZIER
+            Frame=30.000000, valor=-0.541341, interpolación=BEZIER
+            Frame=31.000000, valor=-0.475722, interpolación=BEZIER
+            Frame=32.000000, valor=-0.391822, interpolación=BEZIER
+            Frame=33.000000, valor=-0.292864, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaInfIzq"].rotation_euler', array_index=1, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+          Slot=OBEsqueleto, data_path='pose.bones["PiernaInfIzq"].rotation_euler', array_index=2, keyframes=33
+            Frame=1.000000, valor=0.000000, interpolación=BEZIER
+            Frame=2.000000, valor=0.000000, interpolación=BEZIER
+            Frame=3.000000, valor=0.000000, interpolación=BEZIER
+            Frame=4.000000, valor=0.000000, interpolación=BEZIER
+            Frame=5.000000, valor=0.000000, interpolación=BEZIER
+            Frame=6.000000, valor=0.000000, interpolación=BEZIER
+            Frame=7.000000, valor=0.000000, interpolación=BEZIER
+            Frame=8.000000, valor=0.000000, interpolación=BEZIER
+            Frame=9.000000, valor=0.000000, interpolación=BEZIER
+            Frame=10.000000, valor=0.000000, interpolación=BEZIER
+            Frame=11.000000, valor=0.000000, interpolación=BEZIER
+            Frame=12.000000, valor=0.000000, interpolación=BEZIER
+            Frame=13.000000, valor=0.000000, interpolación=BEZIER
+            Frame=14.000000, valor=0.000000, interpolación=BEZIER
+            Frame=15.000000, valor=0.000000, interpolación=BEZIER
+            Frame=16.000000, valor=0.000000, interpolación=BEZIER
+            Frame=17.000000, valor=0.000000, interpolación=BEZIER
+            Frame=18.000000, valor=0.000000, interpolación=BEZIER
+            Frame=19.000000, valor=0.000000, interpolación=BEZIER
+            Frame=20.000000, valor=0.000000, interpolación=BEZIER
+            Frame=21.000000, valor=0.000000, interpolación=BEZIER
+            Frame=22.000000, valor=0.000000, interpolación=BEZIER
+            Frame=23.000000, valor=0.000000, interpolación=BEZIER
+            Frame=24.000000, valor=0.000000, interpolación=BEZIER
+            Frame=25.000000, valor=0.000000, interpolación=BEZIER
+            Frame=26.000000, valor=0.000000, interpolación=BEZIER
+            Frame=27.000000, valor=0.000000, interpolación=BEZIER
+            Frame=28.000000, valor=0.000000, interpolación=BEZIER
+            Frame=29.000000, valor=0.000000, interpolación=BEZIER
+            Frame=30.000000, valor=0.000000, interpolación=BEZIER
+            Frame=31.000000, valor=0.000000, interpolación=BEZIER
+            Frame=32.000000, valor=0.000000, interpolación=BEZIER
+            Frame=33.000000, valor=0.000000, interpolación=BEZIER
+Drivers: 0
+
+[6] MALLAS VINCULADAS AL ARMATURE
+Malla: Cuerpo | Modificador: Esqueleto
+  Vertex groups: 15
+  Transformación mundo de la malla:
+    Posición: (-1.500000, 0.000000, 3.000000)
+    Rotación Euler XYZ (grados): (0.000000, -0.000000, 0.000000)
+    Rotación Quaternion (WXYZ): (1.000000, 0.000000, 0.000000, 0.000000)
+    Escala: (1.000000, 1.000000, 1.000000)
+    Matriz 4x4:
+      1.000000  0.000000  0.000000  -1.500000
+      0.000000  1.000000  0.000000  0.000000
+      0.000000  0.000000  1.000000  3.000000
+      0.000000  0.000000  0.000000  1.000000
+
+[7] DIAGNÓSTICO DE TRANSFORMACIONES GLOBALES
+Se compara la transformación mundial de cada hueso en reposo y en pose.
+Si las posiciones/rotaciones no coinciden entre huesos, puede ser normal por
+la jerarquía, orientación local, roll, pose, constraints o transformaciones del objeto.
+Este reporte muestra los valores para poder identificar exactamente cuáles difieren.
+
+Centro Arriba: reposo_world_pos=(0.000000, 0.000000, 3.000000) | pose_world_pos=(0.000000, 0.000000, 3.000000) | cambio_rotación_aprox=0.000000 grados
+Cabeza: reposo_world_pos=(0.000977, 0.000000, 4.000000) | pose_world_pos=(0.000977, 0.000000, 4.000000) | cambio_rotación_aprox=0.000000 grados
+Hombro Izquierdo: reposo_world_pos=(0.000977, 0.000000, 4.000000) | pose_world_pos=(0.000977, 0.000000, 4.000000) | cambio_rotación_aprox=0.000000 grados
+BrazoSupIzq: reposo_world_pos=(-1.078097, 0.000000, 4.000000) | pose_world_pos=(-1.078097, 0.000000, 4.000000) | cambio_rotación_aprox=0.000000 grados
+BrazoInfIzq: reposo_world_pos=(-1.500000, 0.000000, 3.000000) | pose_world_pos=(-1.542190, 0.000000, 2.900000) | cambio_rotación_aprox=1.956376 grados
+Hombro Derecho: reposo_world_pos=(0.000977, 0.000000, 4.000000) | pose_world_pos=(0.000977, 0.000000, 4.000000) | cambio_rotación_aprox=0.000000 grados
+BrazoSupDer: reposo_world_pos=(1.076144, -0.000000, 4.000000) | pose_world_pos=(1.076144, -0.000000, 4.000000) | cambio_rotación_aprox=0.000000 grados
+BrazoInfDer: reposo_world_pos=(1.500000, -0.000000, 3.000000) | pose_world_pos=(1.542386, -0.000000, 2.900000) | cambio_rotación_aprox=1.963166 grados
+Arma: reposo_world_pos=(1.500000, -0.000000, 2.500000) | pose_world_pos=(1.562148, -0.000000, 2.303376) | cambio_rotación_aprox=1.963166 grados
+Centro Bajo: reposo_world_pos=(0.000000, 0.000000, 3.000000) | pose_world_pos=(0.000000, 0.000000, 3.000000) | cambio_rotación_aprox=0.000000 grados
+PelvizDer: reposo_world_pos=(0.000000, 0.000000, 2.250000) | pose_world_pos=(0.000000, 0.000000, 2.250000) | cambio_rotación_aprox=0.000000 grados
+PiernaSupDer: reposo_world_pos=(0.500000, 0.000000, 2.000000) | pose_world_pos=(0.500000, 0.000000, 2.000000) | cambio_rotación_aprox=0.000000 grados
+PiernaInfDer: reposo_world_pos=(0.500000, 0.000000, 1.000000) | pose_world_pos=(0.500000, 0.000000, 1.000000) | cambio_rotación_aprox=0.000000 grados
+PelvizIzq: reposo_world_pos=(0.000000, 0.000000, 2.250000) | pose_world_pos=(0.000000, 0.000000, 2.250000) | cambio_rotación_aprox=0.000000 grados
+PiernaSupIzq: reposo_world_pos=(-0.500000, 0.000000, 2.000000) | pose_world_pos=(-0.500000, 0.000000, 2.000000) | cambio_rotación_aprox=0.000000 grados
+PiernaInfIzq: reposo_world_pos=(-0.500000, 0.000000, 1.000000) | pose_world_pos=(-0.500000, 0.000000, 1.000000) | cambio_rotación_aprox=0.000000 grados
+
+[8] NOTAS PARA CREAR ANIMACIONES
+- Usa los nombres exactos de los huesos y la jerarquía de la sección [3].
+- Para animar en espacio global, convierte la transformación deseada al espacio del padre/Armature.
+- Revisa constraints, herencia de escala/rotación y huesos conectados antes de insertar keyframes.
+- La pose actual puede no ser la Rest Position; comprueba el modo de pose del Armature.
+- Este reporte describe el estado actual del archivo; no modifica huesos ni animaciones.
+
+========================================================================================
+FIN DEL REPORTE
+========================================================================================

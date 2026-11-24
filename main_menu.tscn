@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://c22f3jsmh6wcq"]
+
+[ext_resource type="Script" uid="uid://cr3l3jp514lb3" path="res://MainMenu.gd" id="1_06t4h"]
+
+[node name="MainMenu" type="Control" unique_id=545237410]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_06t4h")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1454039850]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 3.0
+offset_right = 1146.0
+offset_bottom = 639.0
+
+[node name="ColorRect" type="ColorRect" parent="CenterContainer" unique_id=1408103669]
+layout_mode = 2
+color = Color(0.08235294, 0.09019608, 0.10980392, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=825677234]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Singleplayer" type="Button" parent="CenterContainer/VBoxContainer" unique_id=549821172]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.8745098, 1)
+text = "Singleplayer"
+
+[node name="Multiplayer" type="Button" parent="CenterContainer/VBoxContainer" unique_id=1106668477]
+layout_mode = 2
+text = "Multiplayer"
+
+[node name="Training" type="Button" parent="CenterContainer/VBoxContainer" unique_id=344943296]
+layout_mode = 2
+text = "Training"

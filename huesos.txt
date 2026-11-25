@@ -1,0 +1,16 @@
+Centro Arriba
+Cabeza
+Hombro Izquierdo
+BrazoSupIzq
+BrazoInfIzq
+Hombro Derecho
+BrazoSupDer
+BrazoInfDer
+Arma
+Centro Bajo
+PelvizDer
+PiernaSupDer
+PiernaInfDer
+PelvizIzq
+PiernaSupIzq
+PiernaInfIzq

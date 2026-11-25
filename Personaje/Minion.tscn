@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://vwquae1se56"]
+
+[ext_resource type="Script" uid="uid://cn3fts4moljur" path="res://Minion.gd" id="1_uf7cx"]
+[ext_resource type="PackedScene" uid="uid://b30u08wpoqxv5" path="res://Modelos/Base_M110.blend" id="2_i50oy"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4kvpb"]
+
+[node name="Minion" type="CharacterBody3D" unique_id=1378852312]
+script = ExtResource("1_uf7cx")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=378211694]
+transform = Transform3D(3.9033647, 0, 0, 0, 3.7017546, 0, 0, 0, 1, 0, 2.49759, 0)
+shape = SubResource("CapsuleShape3D_4kvpb")
+
+[node name="Base_M110" parent="." unique_id=1758285293 instance=ExtResource("2_i50oy")]

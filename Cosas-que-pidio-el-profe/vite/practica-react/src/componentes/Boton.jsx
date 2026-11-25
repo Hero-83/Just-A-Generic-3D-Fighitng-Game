@@ -1,5 +1,5 @@
 export default Boton;
-function Boton({ children, alHacerClic, variante = "primario", cargando = false }) {
+function Boton({ children, alHacerClic, variante = "primario", cargando = false, tipo = "button" }) {
   const estilo = {
     backgroundColor: variante === "peligro" ? "#d32f2f" : "#1976d2",
     color: "white",
@@ -11,7 +11,7 @@ function Boton({ children, alHacerClic, variante = "primario", cargando = false 
   };
 
   return (
-    <button style={estilo} onClick={alHacerClic} disabled={cargando}>
+    <button type={tipo} style={estilo} onClick={alHacerClic} disabled={cargando}>
       {children}
     </button>
   );

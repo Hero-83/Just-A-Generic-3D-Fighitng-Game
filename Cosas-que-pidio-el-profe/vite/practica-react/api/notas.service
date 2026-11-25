@@ -1,0 +1,14 @@
+[Unit]
+Description=Registro de notas del equipo 25493
+After=network.target
+
+[Service]
+User=ec2-user
+WorkingDirectory=/opt/notas/api
+EnvironmentFile=/opt/notas/api/.env
+ExecStart=/usr/bin/env node src/servidor.js
+Restart=on-failure
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

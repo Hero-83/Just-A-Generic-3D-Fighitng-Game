@@ -8,7 +8,7 @@ Eissan Charris es el único integrante. Los talleres anteriores documentan su tr
 
 ## Tecnologías
 
-React, Vite, Node.js 24, Express, cors, dotenv y Vitest. El despliegue previsto usa Amazon S3 para archivos estáticos y EC2 con systemd para la API. Godot 4 corresponde al videojuego.
+React, Vite, Node.js 24, Express, cors, dotenv y Vitest. El despliegue utilizó Amazon S3 para archivos estáticos y EC2 con systemd para la API. Godot 4 corresponde al videojuego.
 
 ## Cómo levantarlo en local
 
@@ -45,7 +45,7 @@ Desde practica-react ejecutar `npm test`. Para repetir al guardar cambios, usar 
 
 ## Despliegue
 
-El [sitio del corte anterior](http://cuc-bp-equipo25493-sitio-202-elcm.s3-website-us-east-1.amazonaws.com/) sirve la presentación del videojuego. Para publicar la aplicación de notas:
+El [sitio del equipo](http://cuc-bp-equipo25493-sitio-202-elcm.s3-website-us-east-1.amazonaws.com/) publicó el registro de notas. El 24 de noviembre se comprobó su conexión con Express en EC2 y se terminó la instancia tras guardar las evidencias. El equipo utilizó la IPv4 automática. Para repetir el despliegue:
 
 1. En EC2 Linux, instalar Node 24 en el PATH del sistema y copiar la carpeta api a /opt/notas/api. Desde allí ejecutar `npm ci --omit=dev`. Crear .env con PORT=3000 y FRONT_ORIGIN igual al origen HTTP del sitio S3, sin barra final. Usar un usuario de servicio con acceso de lectura a esa carpeta (la unidad incluida usa ec2-user).
 2. Instalar notas.service en /etc/systemd/system, ejecutar `sudo systemctl daemon-reload` y `sudo systemctl enable --now notas`. Permitir en el Security Group únicamente TCP 3000 desde los clientes del sitio público. Administrar mediante Session Manager con un rol habilitado en el lab. Mantener SSH cerrado.
